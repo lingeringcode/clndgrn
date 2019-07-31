@@ -6,60 +6,61 @@
 		</h1>
 
 		<p class="author__intro">
-			A simple, hackable & minimalistic starter for Gridsome that uses Netlify CMS for content.
+			{{ $static.metaData.siteDescription }}
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/suits_at">Follow on Twitter</a>
-			<a href="https://github.com/suits-at/netlifycms-gridsome">GitHub</a>
+			<a href="//twitter.com/lndgrn">Follow on Twitter</a>
+			<a href="https://github.com/lingeringcode">GitHub</a>
 		</p>
 
 	</div>
 </template>
 
 <static-query>
-query {
-  metaData {
-    siteName
-  }
-}
+	query {
+	  metaData {
+	    siteName,
+			siteDescription
+	  }
+	}
 </static-query>
 
 <script>
-export default {
-	props: ['showTitle']
-}
+	export default {
+		props: ['showTitle']
+	}
 </script>
 
 <style lang="scss">
-.author {
-	margin: 0 auto;
-	max-width: 500px;
-	text-align: center;
-	padding-bottom: calc(var(--space) / 2);
-
-	&__image {
-		border-radius: 100%;
-		width: 90px;
-		height: 90px;
-		margin-bottom: 1em;
-	}
-
-	&__intro {
-		opacity: .8;
-	}
-
-	&__site-title {
+	.author {
 		margin: 0 auto;
-		font-size: 1.5em;
-		max-width: 400px;
-	}
+		max-width: 500px;
+		text-align: center;
+		padding-bottom: calc(var(--space) / 2);
 
-	&__links {
-		margin-top: -.5em;
-		a {
-			margin: 0 .5em;
+		&__image {
+			border-radius: 100%;
+			width: 90px;
+			height: 90px;
+			margin-bottom: 1em;
+		}
+
+		&__intro {
+			opacity: .8;
+		}
+
+		&__site-title {
+			margin: 0 auto;
+			font-size: 1.5em;
+			max-width: 400px;
+		}
+
+		&__links {
+			margin-top: -.5em;
+			a {
+				margin: 0 .5em;
+			}
 		}
 	}
-}
 </style>

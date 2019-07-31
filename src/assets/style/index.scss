@@ -5,3 +5,40 @@
 @import 'code';
 @import 'content-box';
 @import 'utils';
+
+/* ===========
+   ABOUT ITEMS
+   =========== */
+
+ section#about {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 300px;
+ }
+
+div[id*='-about-item'] {
+  padding: 50px;
+  margin: 100px;
+  max-width: 1050px;
+  min-height: 300px;
+  background-color: rgba(221, 251, 255, 0.35);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (min-width: 220px) and (max-width: 700px) {
+  div[id*='-about-item'] {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+div[id*='-about-item'] p {
+   margin: 15px;
+}
+div[id*='-about-item'] h2 {
+   text-align: center;
+   font-family: 'Norwester';
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
