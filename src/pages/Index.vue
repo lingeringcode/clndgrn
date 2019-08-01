@@ -121,6 +121,30 @@
             </transition>
           </div>
         </div>
+        <div id="dataviz-container" class="col-md-6">
+          <h2>Data Visualizations</h2>
+          <!-- Publications -->
+          <div class="market-cards melodeon">
+            <a @click="showDataviz = !showDataviz">
+              <h3 tooltip="Click to expand/hide content">
+                Projects
+              </h3>
+            </a>
+            <transition name="slide-fade">
+              <div v-if="showDataviz" id="courses" class="market-content">
+                <div>
+                  <div class="content-test">
+                    <TeachingCard
+                      v-for="edge in $page.posts.edges"
+                      v-if="edge.node.type === 'DataViz'"
+                      :key="edge.node.id"
+                      :post="edge.node" />
+                  </div>
+                </div>
+              </div>
+            </transition>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -168,13 +192,15 @@
   import ResearchInprogressRefereedCard from '~/components/ResearchInprogressRefereedCard.vue'
   import TeachingCard from '~/components/TeachingCard.vue'
   import GrantCard from '~/components/GrantCard.vue'
+  import DatavizCard from '~/components/DatavizCard.vue'
 
   export default {
     data: function() {
       return {
         showRes: false,
         showCourse: false,
-        showGrant: false
+        showGrant: false,
+        showDataviz: false
       };
     },
     components: {
@@ -183,7 +209,8 @@
       ResearchNonRefereedCard,
       ResearchInprogressRefereedCard,
       TeachingCard,
-      GrantCard
+      GrantCard,
+      DatavizCard
     },
     metaInfo: {
       title: 'Home'
