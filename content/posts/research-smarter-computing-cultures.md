@@ -8,7 +8,7 @@ title: Using Digital Labs to Build Smarter Computing Cultures
 date: "2016"
 publisher: University of Chicago
 pubname: Rhetoric and the Digital Humanities
-puburl: http://press.uchicago.edu/ucp/books/book/chicago/R/bo18991168.html
+pubURL: http://press.uchicago.edu/ucp/books/book/chicago/R/bo18991168.html
 authors: Kevin Brooks, Chris Lindgren, & Matthew Warner
 tags:
   - computational literacy

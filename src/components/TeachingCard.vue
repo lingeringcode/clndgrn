@@ -7,9 +7,10 @@
               v-if="post.coverImage"
               :src="post.coverImage" />
             <div>
-              <h6 v-html="post.title" />
+              <a :href="post.pubURL" target="_blank" rel="noopener">
+                <h6 v-html="post.title" />
+              </a>
             </div>
-            <g-link class="post-card__link" :to="post.puburl">Link</g-link>
             <PostMeta class="post-card__meta" :post="post" />
             <PostTags class="post-card__tags" :post="post" />
           </div>

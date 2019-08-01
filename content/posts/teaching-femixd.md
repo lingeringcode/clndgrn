@@ -2,7 +2,7 @@
 type: Course
 title: Feminism and Interaction Design (Senior Seminar)
 date: "Spring 2019"
-puburl: \#
+pubURL: \#
 authors: Jennifer Sano-Fanchini, modified by Chris Lindgren
 university: Virginia Tech
 tags:

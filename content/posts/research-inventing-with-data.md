@@ -7,7 +7,7 @@ title: Inventing New Ways with Conference Twitter Data
 date: "2016"
 publisher:
 pubname: Coalition of Feminist Scholars in the History of Rhetoric and Composition
-puburl: http://cwshrc.org/blog/2016/08/22/inventing-new-ways-with-twitter-data/
+pubURL: http://cwshrc.org/blog/2016/08/22/inventing-new-ways-with-twitter-data/
 authors: Chris Lindgren
 tags:
   - rsa16

@@ -6,7 +6,7 @@ title: CodeWork&#58; Exploring Digital Studies through Code
 date: "2014"
 granttitle: Institute for Advanced Study&#58; Research and Creative Collaborative
 grantamount: "$10,000"
-puburl: http://umncodework.github.io/
+pubURL: http://umncodework.github.io/
 authors: Justin Schell, Chris Lindgren, Alison Link, and Jeff Kerzner
 tags:
   - computational literacy

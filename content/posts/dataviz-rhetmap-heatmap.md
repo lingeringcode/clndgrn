@@ -2,7 +2,7 @@
 type: DataViz
 title: Heatmap of RC and TC Job Postings (2012-2017)
 date: "Spring 2019"
-puburl: https://lingeringcode.github.io/rhetmap-heatmap/
+pubURL: https://lingeringcode.github.io/rhetmap-heatmap/
 authors: Chris Lindgren
 tags:
   - job market

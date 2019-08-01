@@ -6,8 +6,11 @@
             <img  class="pi-image"
               v-if="post.coverImage"
               :src="post.coverImage" />
-            <h6 v-html="post.title" />
-            <g-link class="post-card__link" :to="post.puburl">Link</g-link>
+            <div>
+              <a :href="post.pubURL" target="_blank" rel="noopener">
+                <h6 v-html="post.title" />
+              </a>
+            </div>
             <PostMeta class="post-card__meta" :post="post" />
             <PostTags class="post-card__tags" :post="post" />
           </div>

@@ -165,6 +165,7 @@
           granttitle
           grantamount
           grant
+          pubURL
           path
           tags {
             id
