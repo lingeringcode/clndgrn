@@ -9,10 +9,20 @@
 			{{ $static.metaData.siteDescription }}
 		</p>
 
-		<p class="author__links">
-			<a href="//twitter.com/lndgrn">Follow on Twitter</a>
-			<a href="https://github.com/lingeringcode">GitHub</a>
-		</p>
+		<ul class="btn-social social-nav social-icon-sizing">
+			 <li>
+				 <a href="https://twitter.com/lndgrn" target="_blank" rel="noopener">
+					 <i class="fa fa-twitter fa-1x"></i>
+				 </a>
+				 <span class="screen-reader-text-for-icons">Twitter</span>
+			 </li>
+			 <li>
+				 <a href="https://github.com/lingeringcode" target="_blank" rel="noopener">
+					 <i class="fa fa-github-alt"></i>
+				 </a>
+				 <span class="screen-reader-text-for-icons">Github</span>
+			 </li>
+		 </ul>
 
 	</div>
 </template>

@@ -426,6 +426,24 @@ ul.dataviz-sources-list li {
   padding: 15px 0 5px 0px;
 }
 
+/* =============
+   Footer Styles
+   ============= */
+
+ul.btn-social {
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+ul.btn-social i {
+  width: 25px;
+}
+footer a:visited {
+  color: rgb(255, 174, 0);
+  text-decoration: underline;
+}
+
 /* ============================
    Tooltip styles
    Thanks to Andrea Ligios
@@ -459,4 +477,19 @@ ul.dataviz-sources-list li {
 
 [tooltip]:not([tooltip-persistent]):before {
     pointer-events: none;
+}
+
+/* ===========
+   A11Y Styles
+   =========== */
+
+.screen-reader-text-for-icons {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1px;
+  height: 1px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
