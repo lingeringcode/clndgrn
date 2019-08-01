@@ -11,30 +11,30 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     extension: 'md'
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Type", name: "type", widget: "string"}
-      - {label: "PubType", name: "pubtype", widget: "string"}
-      - {label: "Refereed", name: "refereed", widget: "string"}
-      - {label: "Inprogress", name: "inprogress", widget: "string"}
-      - {label: "University", name: "university", widget: "string"}
-      - {label: "Grant", name: "grant", widget: "string"}
-      - {label: "GrantTitle", name: "granttitle", widget: "string"}
-      - {label: "GrantAmount", name: "grantamount", widget: "string"}
-      - {label: "Selected", name: "selected", widget: "string"}
-      - {label: "Date", name: "date", widget: "string"}
-      - {label: "Publisher", name: "publisher", widget: "string"}
-      - {label: "Pubname", name: "pubname", widget: "string"}
-      - {label: "PubURL", name: "pubURL", widget: "string"}
-      - {label: "Authors", name: "authors", widget: "string"}
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Type", name: "type", widget: "string", required: false}
+      - {label: "PubType", name: "pubtype", widget: "string", required: false}
+      - {label: "Refereed", name: "refereed", widget: "string", required: false}
+      - {label: "Inprogress", name: "inprogress", widget: "string", required: false}
+      - {label: "University", name: "university", widget: "string", required: false}
+      - {label: "Grant", name: "grant", widget: "string", required: false}
+      - {label: "GrantTitle", name: "granttitle", widget: "string", required: false}
+      - {label: "GrantAmount", name: "grantamount", widget: "string", required: false}
+      - {label: "Selected", name: "selected", widget: "string", required: false}
+      - {label: "Date", name: "date", widget: "string", required: false}
+      - {label: "Publisher", name: "publisher", widget: "string", required: false}
+      - {label: "Pubname", name: "pubname", widget: "string", required: false}
+      - {label: "PubURL", name: "pubURL", widget: "string", required: false}
+      - {label: "Authors", name: "authors", widget: "string", required: false}
       - label: "Tags"
         name: "tags"
         widget: "list"
-        field: {label: Name, name: name, widget: string, default: "tag"}
+        field: {label: Name, name: name, widget: string, default: "tag", required: false}
       - label: "Fields"
         name: "fields"
         widget: "list"
-        field: {label: Name, name: name, widget: string, default: "tag"}
+        field: {label: Name, name: name, widget: string, default: "tag", required: false}
       - {label: "Cover Image", name: "coverImage", widget: "image", required: false}
-      - {label: "ALTattribute", name: "altattribute", widget: "string"}
-      - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "ALTattribute", name: "altattribute", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
