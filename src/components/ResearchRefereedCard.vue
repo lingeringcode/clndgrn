@@ -1,4 +1,4 @@
-<template v-if="post.inprogress === false">
+<template v-if="post.inprogress === false && post.refereed === true">
     <div class="course-modal-width" :class="{'post-card--has-poster' : post.poster}">
       <div class="portfolio-item-container">
         <div class="content">
