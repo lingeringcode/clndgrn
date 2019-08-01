@@ -8,9 +8,12 @@ pubname: 'Kairos: A Journal of Rhetoric, Technology, and Pedagogy'
 pubURL: '#'
 authors: Jim Ridolfo and Chris Lindgren
 tags:
-  - tag
+  - data visualization
+  - job market
+  - data processing
 fields:
-  - tag
+  - rhetoric
+  - writing studies
 coverImage: /images/uploads/writing-dv.png
 ---
 
