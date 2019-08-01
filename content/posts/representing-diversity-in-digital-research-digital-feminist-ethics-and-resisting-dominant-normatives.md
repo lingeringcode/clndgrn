@@ -3,6 +3,7 @@ title: Representing Diversity in Digital Research&#58; Digital Feminist Ethics a
 type: Conference Proceedings
 refereed: true
 inprogress: false
+selected: true
 date: '2019'
 publisher: The WAC Clearinghouse
 pubname: 'The Proceedings of the Annual Computers and Writing Conference, 2018'

@@ -16,15 +16,15 @@ collections:
       - {label: "Refereed", name: "refereed", widget: "boolean", required: false}
       - {label: "Inprogress", name: "inprogress", widget: "boolean", required: false}
       - {label: "University", name: "university", widget: "string", required: false}
-      - {label: "Grant", name: "grant", widget: "string", required: false}
-      - {label: "GrantTitle", name: "granttitle", widget: "string", required: false}
-      - {label: "GrantAmount", name: "grantamount", widget: "string", required: false}
-      - {label: "Selected", name: "selected", widget: "string", required: false}
+      - {label: "Selected", name: "selected", widget: "boolean", required: false}
       - {label: "Date", name: "date", widget: "string", required: false}
       - {label: "Publisher", name: "publisher", widget: "string", required: false}
       - {label: "Pubname", name: "pubname", widget: "string", required: false}
       - {label: "PubURL", name: "pubURL", widget: "string", required: false}
       - {label: "Authors", name: "authors", widget: "string", required: false}
+      - {label: "Grant", name: "grant", widget: "string", required: false}
+      - {label: "GrantTitle", name: "granttitle", widget: "string", required: false}
+      - {label: "GrantAmount", name: "grantamount", widget: "string", required: false}
       - label: "Tags"
         name: "tags"
         widget: "list"
