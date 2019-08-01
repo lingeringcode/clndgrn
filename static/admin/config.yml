@@ -13,9 +13,8 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string", required: false}
       - {label: "Type", name: "type", widget: "string", required: false}
-      - {label: "PubType", name: "pubtype", widget: "string", required: false}
-      - {label: "Refereed", name: "refereed", widget: "string", required: false}
-      - {label: "Inprogress", name: "inprogress", widget: "string", required: false}
+      - {label: "Refereed", name: "refereed", widget: "boolean", required: false}
+      - {label: "Inprogress", name: "inprogress", widget: "boolean", required: false}
       - {label: "University", name: "university", widget: "string", required: false}
       - {label: "Grant", name: "grant", widget: "string", required: false}
       - {label: "GrantTitle", name: "granttitle", widget: "string", required: false}
