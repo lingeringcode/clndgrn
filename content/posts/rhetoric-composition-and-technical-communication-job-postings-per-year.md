@@ -3,7 +3,7 @@ title: 'Rhetoric, Composition, and Technical Communication Job Postings per Year
 type: DataViz
 pubtype: none
 refereed: none
-inprogress: none
+inprogress: 'false'
 university: none
 grant: none
 granttitle: none
