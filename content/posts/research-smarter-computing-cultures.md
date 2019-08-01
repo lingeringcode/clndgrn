@@ -5,7 +5,7 @@ refereed: true
 inprogress: false
 selected: true
 title: Using Digital Labs to Build Smarter Computing Cultures
-date: 2016-02-07
+date: "2016"
 publisher: University of Chicago
 pubname: Rhetoric and the Digital Humanities
 puburl: http://press.uchicago.edu/ucp/books/book/chicago/R/bo18991168.html

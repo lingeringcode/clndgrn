@@ -4,7 +4,7 @@ refereed: true
 inprogress: false
 selected: true
 title: Responding to the Coding Crisis&#58; From Code Year to Computational Literacy
-date: 2019-02-07
+date: "2017"
 publisher: Computers and Composition Digital Press
 pubname: Strategic Discourse&#58; The Politics of (New) Literacy Crises
 puburl: http://ccdigitalpress.org/strategic/

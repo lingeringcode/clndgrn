@@ -118,18 +118,18 @@ div[id*='-about-item'] h2 {
    Materials Content Body Styles
    ============================= */
 
-section#materials {
+section#materials div.posts {
   display: grid;
   margin: 35px;
   grid-template-columns: 1fr 1fr;
 }
 @media (max-width: 880px) {
-  section#materials {
+  section#materials div.posts {
     grid-template-columns: 1fr;
   }
 }
 @media (max-width: 520px) {
-  section#materials {
+  section#materials div.posts {
     margin: 0px;
   }
 }
@@ -158,6 +158,10 @@ section#materials {
 }
 .market-cards h6 {
   font-size: 0.7em;
+  line-height: 1.1;
+}
+.market-cards p {
+  font-size: 0.6em;
   line-height: 1.1;
 }
 .market-cards .post-card__meta {
@@ -354,7 +358,6 @@ ul.ul-no-styles li:hover {
 }
 .market-cards .portfolio-item-container .body p {
   line-height: 1.25;
-  font-size: 16px;
   margin-left: 0px;
   display:block;
 }

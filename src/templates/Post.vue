@@ -55,7 +55,7 @@ query Post ($path: String!) {
   post: post (path: $path) {
     title
     path
-    date (format: "D. MMMM YYYY")
+    date
     tags {
       id
       title

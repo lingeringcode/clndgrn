@@ -20,7 +20,7 @@ query Tag ($id: String!) {
           ...on Post {
             title
             path
-            date (format: "D. MMMM YYYY")
+            date
             timeToRead
             description
             coverImage (width: 860, blur: 10)

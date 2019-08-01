@@ -1,25 +1,24 @@
 ---
-type: Article
-refereed: false
+type: Grant
 inprogress: false
-selected: true
-title: Inventing New Ways with Conference Twitter Data
-date: "2016"
-publisher:
-pubname: Coalition of Feminist Scholars in the History of Rhetoric and Composition
-puburl: http://cwshrc.org/blog/2016/08/22/inventing-new-ways-with-twitter-data/
-authors: Chris Lindgren
+grant: true
+title: CodeWork&#58; Exploring Digital Studies through Code
+date: "2014"
+granttitle: Institute for Advanced Study&#58; Research and Creative Collaborative
+grantamount: "$10,000"
+puburl: http://umncodework.github.io/
+authors: Justin Schell, Chris Lindgren, Alison Link, and Jeff Kerzner
 tags:
-  - rsa16
-  - academic conferences
-  - data analysis
-  - data visualization
-  - social media data
+  - computational literacy
+  - public outreach
+  - literacy crisis discourse
+  - Code Year
+  - Code Decade
 fields:
-  - Writing Studies
+  - Literacy Studies
   - Rhetoric
-coverImage: /images/uploads/rsa16-chord-diagram.png
-altattribute: D3.js chord diagram.
+coverImage: /images/uploads/codework-unconference.jpg
+altattribute: Chris Lindgren working with a child student on a special Sugar Labs project.
 description: >-
   In this open-access chapter, Kevin Brooks and I analyze data from our Sugar Labs @ NDSU outreach program in response to the \"code year\" coding-crisis discourse. Our findings indicated that digital divides still exist and manifest in more complex ways than haves versus have-nots. We call for rhetoricians to engage more than the crisis tropes themselves, and ask others to become more involved in public efforts&mdash;efforts such as joining or creating multidisciplinary teams to develop more holistic curricula.
 ---

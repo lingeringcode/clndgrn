@@ -16,8 +16,12 @@ collections:
       - {label: "PubType", name: "pubtype", widget: "string"}
       - {label: "Refereed", name: "refereed", widget: "string"}
       - {label: "Inprogress", name: "inprogress", widget: "string"}
+      - {label: "University", name: "university", widget: "string"}
+      - {label: "Grant", name: "grant", widget: "string"}
+      - {label: "GrantTitle", name: "granttitle", widget: "string"}
+      - {label: "GrantAmount", name: "grantamount", widget: "string"}
       - {label: "Selected", name: "selected", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Date", name: "date", widget: "string"}
       - {label: "Publisher", name: "publisher", widget: "string"}
       - {label: "Pubname", name: "pubname", widget: "string"}
       - {label: "PubURL", name: "pubURL", widget: "string"}
