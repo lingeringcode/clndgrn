@@ -1,22 +1,11 @@
 ---
 title: 'Rhetoric, Composition, and Technical Communication Job Postings per Year'
 type: DataViz
-pubtype: none
-refereed: none
-inprogress: 'false'
-university: none
-grant: none
-granttitle: none
-grantamount: none
-selected: none
 date: '2016'
-publisher: none
-pubname: none
 pubURL: 'https://lingeringcode.github.io/rhetmap-time-series/'
 authors: Chris Lindgren
 tags:
   - job market
-fields:
   - data visualization
 coverImage: /images/uploads/rhetmap-time-series.png
 altattribute: none
