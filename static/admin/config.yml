@@ -12,11 +12,25 @@ collections:
     extension: 'md'
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Type", name: "type", widget: "string"}
+      - {label: "PubType", name: "pubtype", widget: "string"}
+      - {label: "Refereed", name: "refereed", widget: "string"}
+      - {label: "Inprogress", name: "inprogress", widget: "string"}
+      - {label: "Selected", name: "selected", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Publisher", name: "publisher", widget: "string"}
+      - {label: "Pubname", name: "pubname", widget: "string"}
+      - {label: "PubURL", name: "pubURL", widget: "string"}
+      - {label: "Authors", name: "authors", widget: "string"}
       - label: "Tags"
         name: "tags"
         widget: "list"
         field: {label: Name, name: name, widget: string, default: "tag"}
+      - label: "Fields"
+        name: "fields"
+        widget: "list"
+        field: {label: Name, name: name, widget: string, default: "tag"}
       - {label: "Cover Image", name: "coverImage", widget: "image", required: false}
+      - {label: "ALTattribute", name: "altattribute", widget: "string"}
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}

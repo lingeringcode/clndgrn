@@ -5,7 +5,7 @@
     </h1>
 
     <div class="posts">
-      <PostCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
+      <ResearchRefereedCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
     </div>
   </Layout>
 </template>
@@ -35,12 +35,16 @@ query Tag ($id: String!) {
 
 <script>
 import Author from '~/components/Author.vue'
-import PostCard from '~/components/PostCard.vue'
+import ResearchInprogressRefereedCard from '~/components/ResearchInprogressRefereedCard.vue'
+import ResearchRefereedCard from '~/components/ResearchRefereedCard.vue'
+import ResearchNonRefereedCard from '~/components/ResearchNonRefereedCard.vue'
 
 export default {
   components: {
     Author,
-    PostCard
+    ResearchInprogressRefereedCard,
+    ResearchRefereedCard,
+    ResearchNonRefereedCard
   },
   metaInfo: {
     title: 'Tags'
@@ -51,4 +55,3 @@ export default {
 <style lang="scss">
 
 </style>
-

@@ -23,9 +23,58 @@
     </section>
 
     <!-- List posts -->
-    <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
-    </div>
+    <section id="materials">
+      <div class="posts">
+        <div id="research-container" class="col-md-6">
+          <h2>Research</h2>
+          <!-- Publications -->
+          <div class="market-cards melodeon">
+            <a @click="show = !show">
+              <h3 tooltip="Click to expand/hide content">
+                Publications
+              </h3>
+            </a>
+            <transition name="slide-fade">
+              <div v-if="show" id="research" class="market-content">
+                <div id="inprogress">
+                  <h5>
+                      Under Review/Refereed
+                  </h5>
+                  <div class="content-test">
+                    <ResearchInprogressRefereedCard
+                      v-for="edge in $page.posts.edges"
+                      v-if="edge.node.inprogress === true"
+                      :key="edge.node.id"
+                      :post="edge.node" />
+                  </div>
+                </div>
+                <div id="refereed">
+                  <h5>
+                      Refereed (Selected)</h5>
+                  <div class="content-test">
+                    <ResearchRefereedCard
+                      v-for="edge in $page.posts.edges"
+                      v-if="edge.node.inprogress === false"
+                      :key="edge.node.id"
+                      :post="edge.node"/>
+                  </div>
+                </div>
+                <div id="non-refereed">
+                  <h5>Non-Refereed</h5>
+                  <div class="content-test">
+                    <ResearchNonRefereedCard
+                      v-for="edge in $page.posts.edges"
+                      v-if="edge.node.refereed === false"
+                      :key="edge.node.id"
+                      :post="edge.node"/>
+                  </div>
+                </div>
+              </div>
+            </transition>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </Layout>
 </template>
@@ -35,6 +84,8 @@
     posts: allPost {
       edges {
         node {
+          inprogress
+          refereed
           id
           title
           path
@@ -43,10 +94,9 @@
             title
             path
           }
-          date (format: "D. MMMM YYYY")
-          timeToRead
+          date (format: "D MMMM YYYY")
           description
-          coverImage (width: 770, height: 380, blur: 10)
+          coverImage (width: 220)
           ...on Post {
               id
               title
@@ -59,16 +109,46 @@
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
-import PostCard from '~/components/PostCard.vue'
+  import Author from '~/components/Author.vue'
+  import ResearchRefereedCard from '~/components/ResearchRefereedCard.vue'
+  import ResearchNonRefereedCard from '~/components/ResearchNonRefereedCard.vue'
+  import ResearchInprogressRefereedCard from '~/components/ResearchInprogressRefereedCard.vue'
 
-export default {
-  components: {
-    Author,
-    PostCard
-  },
-  metaInfo: {
-    title: 'Home'
+  export default {
+    data: function() {
+      return {
+        show: false
+      };
+    },
+    components: {
+      Author,
+      ResearchRefereedCard,
+      ResearchNonRefereedCard,
+      ResearchInprogressRefereedCard
+    },
+    metaInfo: {
+      title: 'Home'
+    }
   }
-}
 </script>
+
+<style>
+  /* Enter and leave animations can use different */
+  /* durations and timing functions.              */
+  .slide-fade-enter-active {
+    transition: all .3s ease;
+  }
+  .slide-fade-leave-active {
+    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  }
+  .slide-fade-enter, .slide-fade-leave-to
+    /* .slide-fade-leave-active below version 2.1.8 */ {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+  .msg.v-enter, .msg.v-leave {
+    height: 0;
+    padding: 0 10px;
+    opacity: 0;
+  }
+</style>

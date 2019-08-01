@@ -11,10 +11,10 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
 
   // Add an external CSS file
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://some-server.com/external-styleheet.css'
-  })
+  // head.link.push({
+  //   rel: 'stylesheet',
+  //   href: '/assets/css/uploads/rhetoric-dh.jpg/external-styleheet.css'
+  // })
 
   // Add a meta tag
   head.meta.push({
