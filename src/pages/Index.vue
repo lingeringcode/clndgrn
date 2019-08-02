@@ -54,7 +54,7 @@
                   <div class="content-test">
                     <ResearchRefereedCard
                       v-for="edge in $page.posts.edges"
-                      v-if="edge.node.inprogress === false && edge.node.refereed === true && edge.node.selected === true"
+                      v-if="edge.node.inprogress === false && edge.node.refereed === true"
                       :key="edge.node.id"
                       :post="edge.node"/>
                   </div>
