@@ -1,29 +1,30 @@
 <template>
 	<div class="author">
+		<img src="/images/uploads/ferrite-core-magnetic-memory-5-patent-fig.svg" />
+		<div class="author__details">
+			<h1 v-if="showTitle" class="author__site-title">
+				{{ $static.metaData.siteName }}
+			</h1>
 
-		<h1 v-if="showTitle" class="author__site-title">
-			{{ $static.metaData.siteName }}
-		</h1>
+			<p class="author__intro">
+				{{ $static.metaData.siteDescription }}
+			</p>
 
-		<p class="author__intro">
-			{{ $static.metaData.siteDescription }}
-		</p>
-
-		<ul class="btn-social social-nav social-icon-sizing">
-			 <li>
-				 <a href="https://twitter.com/lndgrn" target="_blank" rel="noopener">
-					 <i class="fa fa-twitter fa-1x"></i>
-				 </a>
-				 <span class="screen-reader-text-for-icons">Twitter</span>
-			 </li>
-			 <li>
-				 <a href="https://github.com/lingeringcode" target="_blank" rel="noopener">
-					 <i class="fa fa-github-alt"></i>
-				 </a>
-				 <span class="screen-reader-text-for-icons">Github</span>
-			 </li>
-		 </ul>
-
+			<ul class="btn-social social-nav social-icon-sizing">
+				 <li>
+					 <a href="https://twitter.com/lndgrn" target="_blank" rel="noopener">
+						 <i class="fa fa-twitter fa-1x"></i>
+					 </a>
+					 <span class="screen-reader-text-for-icons">Twitter</span>
+				 </li>
+				 <li>
+					 <a href="https://github.com/lingeringcode" target="_blank" rel="noopener">
+						 <i class="fa fa-github-alt"></i>
+					 </a>
+					 <span class="screen-reader-text-for-icons">Github</span>
+				 </li>
+			 </ul>
+		</div>
 	</div>
 </template>
 
@@ -44,10 +45,20 @@
 
 <style lang="scss">
 	.author {
+		display: grid;
+	  grid-template-columns: 1.5fr 1fr;
 		margin: 0 auto;
-		max-width: 500px;
-		text-align: center;
-		padding-bottom: calc(var(--space) / 2);
+		max-width: 700px;
+	  text-align: center;
+	  padding-bottom: calc(var(--space) / 2);
+
+		&__details {
+			display: flex;
+		  flex-direction: column;
+		  align-self: center;
+		  align-items: center;
+		  padding: 0 14px;
+		}
 
 		&__image {
 			border-radius: 100%;
@@ -58,6 +69,7 @@
 
 		&__intro {
 			opacity: .8;
+			margin-top: 10px;
 		}
 
 		&__site-title {
@@ -71,6 +83,14 @@
 			a {
 				margin: 0 .5em;
 			}
+		}
+	}
+	@media screen and (max-width: 575px) {
+		.author {
+			grid-template-columns: 1fr;
+		}
+		.author img {
+			margin-bottom: 25px;
 		}
 	}
 </style>
