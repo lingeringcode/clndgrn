@@ -3,6 +3,7 @@ type: Article
 refereed: false
 inprogress: false
 selected: true
+research: true
 title: Inventing New Ways with Conference Twitter Data
 date: "2016"
 publisher:

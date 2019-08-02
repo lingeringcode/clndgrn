@@ -1,4 +1,4 @@
-<template v-if="post.refereed === false">
+<template v-if="post.refereed === false && post.research === true">
     <div class="course-modal-width" :class="{'post-card--has-poster' : post.poster}">
       <div class="portfolio-item-container">
         <div class="content">

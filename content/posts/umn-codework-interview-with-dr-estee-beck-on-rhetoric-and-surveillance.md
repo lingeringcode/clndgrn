@@ -3,6 +3,7 @@ title: UMN CodeWork Interview with Dr. Estee Beck on Rhetoric and Surveillance
 type: Interview
 date: '2015'
 publisher: University of Minnesota - Institute of Advanced Study
+refereed: false
 pubURL: >-
   https://umncodework.github.io/past_events/codework-interview-beck-digrhet-surveillance/
 authors: Chris Lindgren and Estee Beck
@@ -21,4 +22,3 @@ description: >-
   and its role in helping others to understand the implications of tracking
   technologies in networked environments.
 ---
-
