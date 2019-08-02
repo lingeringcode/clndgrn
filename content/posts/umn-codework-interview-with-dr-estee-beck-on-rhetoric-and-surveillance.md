@@ -11,6 +11,7 @@ tags:
   - surveillance
   - rhetoric
 fields: []
+coverImage: /images/uploads/alg-surveil-220.png
 description: >-
   Interview with digital rhetorician Dr. Estee Beck on digital rhetoric,
   algorithms, and surveillance studies
