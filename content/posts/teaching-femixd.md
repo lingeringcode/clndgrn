@@ -6,7 +6,7 @@ date: Spring 2019
 pubURL: /assets/docs/engl4874s18-syllabus.pdf
 authors: 'Jennifer Sano-Fanchini, modified by Chris Lindgren'
 tags:
-  - technical Communication
+  - technical communication
   - feminisms
   - interaction design
   - human-computer interaction
