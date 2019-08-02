@@ -10,5 +10,6 @@ tags:
   - content strategy
   - web design
 fields: []
+coverImage: /images/uploads/writ4662wf15-220.png
 ---
 
