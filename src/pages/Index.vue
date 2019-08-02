@@ -85,10 +85,23 @@
             <transition name="slide-fade">
               <div v-if="showCourse" id="courses" class="market-content">
                 <div>
-                  <div class="content-test">
+                  <div id="teaching-vt" class="content-test">
+                    <h5>
+                      Virginia Tech
+                    </h5>
                     <TeachingCard
                       v-for="edge in $page.posts.edges"
-                      v-if="edge.node.type === 'Course'"
+                      v-if="edge.node.type === 'Course' && edge.node.university === 'Virginia Tech'"
+                      :key="edge.node.id"
+                      :post="edge.node" />
+                  </div>
+                  <div id="teaching-umn" class="content-test">
+                    <h5>
+                      University of Minnesota
+                    </h5>
+                    <TeachingCard
+                      v-for="edge in $page.posts.edges"
+                      v-if="edge.node.type === 'Course' && edge.node.university === 'University of Minnesota'"
                       :key="edge.node.id"
                       :post="edge.node" />
                   </div>
