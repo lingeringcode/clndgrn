@@ -10,5 +10,6 @@ tags:
   - Rhetoric of Technology
   - 'Science, Technology, and Society'
 fields: []
+coverImage: /images/uploads/engl5674s18-220.png
 ---
 
