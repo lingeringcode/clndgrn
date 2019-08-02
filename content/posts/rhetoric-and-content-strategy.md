@@ -1,5 +1,5 @@
 ---
-title: Rhetoric and Content Strategy
+title: Rhetoric and Content Strategy (ENGL 4814)
 type: Course
 university: Virginia Tech
 date: 'Spring 2018, Fall 2018'
