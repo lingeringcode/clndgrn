@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Chris Lindgren, Ph.D.',
-  siteDescription: 'Scholar invested in changing how we understand writing in relationship to computer coding.',
+  siteDescription: 'Scholar invested in changing how we understand computer coding as writing.',
 
   plugins: [
     {

@@ -5,11 +5,9 @@
 			<h1 v-if="showTitle" class="author__site-title">
 				{{ $static.metaData.siteName }}
 			</h1>
-
 			<p class="author__intro">
 				{{ $static.metaData.siteDescription }}
 			</p>
-
 			<ul class="btn-social social-nav social-icon-sizing">
 				 <li>
 					 <a href="https://twitter.com/lndgrn" target="_blank" rel="noopener">
@@ -48,7 +46,7 @@
 		display: grid;
 	  grid-template-columns: 1.5fr 1fr;
 		margin: 0 auto;
-		max-width: 700px;
+		max-width: 800px;
 	  text-align: center;
 	  padding-bottom: calc(var(--space) / 2);
 
