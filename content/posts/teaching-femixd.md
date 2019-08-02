@@ -1,10 +1,10 @@
 ---
-type: Course
 title: Feminism and Interaction Design (Senior Seminar)
-date: "Spring 2019"
-pubURL: \#
-authors: Jennifer Sano-Fanchini, modified by Chris Lindgren
+type: Course
 university: Virginia Tech
+date: Spring 2019
+pubURL: /assets/docs/engl4874s18-syllabus.pdf
+authors: 'Jennifer Sano-Fanchini, modified by Chris Lindgren'
 tags:
   - technical Communication
   - feminisms
@@ -17,6 +17,6 @@ fields:
   - Rhetoric
 coverImage: /images/uploads/engl4874s19-220.png
 altattribute: .
-description: >-
-  .
+description: .
 ---
+
