@@ -1,5 +1,5 @@
 ---
-title: Writing with Digital Technologies
+title: Writing with Digital Technologies (WRIT 4662w)
 type: Course
 university: University of Minnesota
 date: Fall 2015
