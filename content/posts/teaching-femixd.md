@@ -12,6 +12,7 @@ tags:
   - human-computer interaction
   - prototyping
   - praxis
+  - usability
 fields:
   - Literacy Studies
   - Rhetoric
