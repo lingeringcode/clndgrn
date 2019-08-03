@@ -1,7 +1,5 @@
 <template>
   <Layout :show-logo="false">
-    <!-- Author intro -->
-    <Author :show-title="true" />
 
     <!-- ABOUT -->
     <section id="about">
@@ -200,7 +198,6 @@
 </page-query>
 
 <script>
-  import Author from '~/components/Author.vue'
   import ResearchRefereedCard from '~/components/ResearchRefereedCard.vue'
   import ResearchNonRefereedCard from '~/components/ResearchNonRefereedCard.vue'
   import ResearchInprogressRefereedCard from '~/components/ResearchInprogressRefereedCard.vue'
@@ -218,7 +215,6 @@
       };
     },
     components: {
-      Author,
       ResearchRefereedCard,
       ResearchNonRefereedCard,
       ResearchInprogressRefereedCard,

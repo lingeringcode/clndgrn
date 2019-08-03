@@ -2,9 +2,7 @@
   <div id="app">
 
     <header class="header">
-      <div class="header__left">
-        <Logo v-if="showLogo" />
-      </div>
+      <Author :show-title="true" />
     </header>
 
     <main class="main">
@@ -39,14 +37,14 @@
 </template>
 
 <script>
-  import Logo from '~/components/Logo.vue'
+  import Author from '~/components/Author.vue'
 
   export default {
   props: {
     showLogo: { default: true }
   },
   components: {
-    Logo
+    Author
   }
 }
 </script>
@@ -58,8 +56,7 @@
     align-items: center;
     min-height: var(--header-height);
     padding: 0 calc(var(--space) / 2);
-    top:0;
-    z-index: 10;
+    margin-top: 25px;
 
     &__left,
     &__right {
@@ -77,6 +74,11 @@
   .main {
     margin: 0 auto;
     padding: 1.5vw 15px 0;
+  }
+  @media screen and (max-width: 520px) {
+    .main {
+      padding: 0px;
+    }
   }
 
   .footer {
