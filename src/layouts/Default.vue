@@ -56,18 +56,12 @@
     align-items: center;
     min-height: var(--header-height);
     padding: 0 calc(var(--space) / 2);
-    margin-top: 25px;
+    margin-top: 75px;
 
     &__left,
     &__right {
       display: flex;
       align-items: center;
-    }
-
-    @media screen and (min-width: 1300px) {
-      //Make header sticky for large screens
-      position: sticky;
-      width: 100%;
     }
   }
 
