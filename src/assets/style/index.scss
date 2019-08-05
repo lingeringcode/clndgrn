@@ -123,6 +123,10 @@ section#materials div.posts {
   margin: 35px;
   grid-template-columns: 1fr 1fr;
 }
+section#dv-materials div.posts {
+  margin: 35px;
+  width: 100%;
+}
 @media (max-width: 880px) {
   section#materials div.posts {
     grid-template-columns: 1fr;
@@ -346,6 +350,10 @@ ul.ul-no-styles li:hover {
 .portfolio-item-container .body {
   display: grid;
   grid-template-columns: 30% 70%;
+}
+.portfolio-item-container .body img,
+.portfolio-item-container .body .post-meta {
+  justify-self: center;
 }
 .portfolio-item-container .body h5 {
   margin: 10px;

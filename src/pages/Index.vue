@@ -1,5 +1,5 @@
 <template>
-  <Layout :show-logo="false">
+  <Layout :show-logo="true">
 
     <!-- ABOUT -->
     <section id="about">
@@ -142,10 +142,10 @@
               </h3>
             </a>
             <transition name="slide-fade">
-              <div v-if="showDataviz" id="courses" class="market-content">
+              <div v-if="showDataviz" id="dataviz" class="market-content">
                 <div>
                   <div class="content-test">
-                    <TeachingCard
+                    <DatavizCard
                       v-for="edge in $page.posts.edges"
                       v-if="edge.node.type === 'DataViz'"
                       :key="edge.node.id"
