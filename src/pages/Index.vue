@@ -133,7 +133,7 @@
           </div>
         </div>
         <div id="dataviz-container" class="col-md-6">
-          <h2>Data Visualizations</h2>
+          <h2>Computational</h2>
           <!-- Publications -->
           <div class="market-cards melodeon">
             <a @click="showDataviz = !showDataviz">
