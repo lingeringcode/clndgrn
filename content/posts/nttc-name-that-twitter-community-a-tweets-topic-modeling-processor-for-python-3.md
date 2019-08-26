@@ -1,5 +1,5 @@
 ---
-title: 'NTTC (Name That Twitter Community!) :: Python 3 Module'
+title: 'Python 3 Module: NTTC (Name That Twitter Community!)'
 type: DataViz
 refereed: false
 date: '2019'
