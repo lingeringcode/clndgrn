@@ -2,14 +2,11 @@ import React, {Component} from 'react';
 import {render} from 'react-dom';
 import {StaticMap} from 'react-map-gl';
 import DeckGL, {IconLayer} from 'deck.gl';
-// var apikey = require("./apikey");
 
 import IconClusterLayer from './icon-cluster-layer';
 
-const { MAPBOX_API_TOKEN } = process.env;
-
 // Set your mapbox token here
-const MAPBOX_API_TOKEN = MAPBOX_API_TOKEN; // eslint-disable-line
+const { MAPBOX_API_TOKEN } = process.env; // eslint-disable-line
 
 // Source data CSV
 const DATA_URL = 'data/ondeck-rhetmap.json'; // eslint-disable-line
