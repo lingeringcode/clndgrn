@@ -1,6 +1,6 @@
 // NOTE: To use this example standalone (e.g. outside of deck.gl repo)
 // delete the local development overrides at the bottom of this file
-
+const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
@@ -27,7 +27,17 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin(),
+    // New plugin
+    new HtmlWebpackPlugin({
+      // injects bundle.js to our new index.html
+      inject: true,
+      // copys the content of the existing index.html to the new /build index.html
+      template:  path.resolve('./index.html'),
+    }),
+  ]
 };
 
 // This line enables bundling against src in this repo rather than installed module
