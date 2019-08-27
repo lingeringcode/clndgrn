@@ -5,7 +5,7 @@ import DeckGL, {IconLayer} from 'deck.gl';
 import IconClusterLayer from './icon-cluster-layer';
 
 // Set your mapbox token here
-const { MAPBOX_API_TOKEN } = process.env; // eslint-disable-line
+const { MAPBOX_API_TOKEN } = process.env.MAPBOX_API_TOKEN; // eslint-disable-line
 
 // Source data CSV
 const DATA_URL = './data/ondeck-rhetmap.json'; // eslint-disable-line

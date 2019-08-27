@@ -6,12 +6,12 @@ const webpack = require('webpack');
 module.exports = {
   mode: 'production',
   entry: {
-    app: './app.js'
+    app: './app.js' //Start webpacker here
   },
   output: {
-    path: path.resolve(__dirname, ""),
+    path: path.resolve(__dirname, ""), //Unpack here
     publicPath: '/',
-    filename: 'app.js',
+    filename: 'app.js', //Unpack as this file
     library: 'App'
   },
   module: {
