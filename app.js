@@ -6,7 +6,7 @@ import IconClusterLayer from './icon-cluster-layer';
 import "./apikey"
 
 // Set your mapbox token here
-const { MAPBOX_API_KEY } = ${process.env.MAPBOX_API_KEY}; // eslint-disable-line
+const { MAPBOX_API_KEY } = process.env.MAPBOX_API_KEY; // eslint-disable-line
 
 // Source data CSV
 const DATA_URL = './data/ondeck-rhetmap.json'; // eslint-disable-line
