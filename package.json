@@ -1,10 +1,11 @@
 {
-  "name": "icon",
-  "version": "0.0.0",
+  "name": "rhetmap-locations",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "start-local": "webpack-dev-server --env.local --progress --hot --open",
-    "start": "webpack-dev-server --progress --hot --open"
+    "start": "webpack-dev-server --progress --hot --open",
+    "build": ""
   },
   "dependencies": {
     "deck.gl": "^7.2.0",
@@ -12,7 +13,10 @@
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-map-gl": "^5.0.0",
-    "supercluster": "^6.0.1"
+    "supercluster": "^6.0.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
