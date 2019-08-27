@@ -30,7 +30,7 @@ const CONFIG = {
   },
 
   // Optional: Enables reading mapbox token from environment variable
-  plugins: [new webpack.EnvironmentPlugin(['process.env.MAPBOX_API_TOKEN'])]
+  plugins: [new webpack.EnvironmentPlugin(['{MAPBOX_API_TOKEN}'])]
 };
 
 // This line enables bundling against src in this repo rather than installed module
