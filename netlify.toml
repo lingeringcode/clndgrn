@@ -1,5 +1,5 @@
 [build]
-  command = "npm start"
+  command = "npm build"
   publish = "dist"
   functions = "./functions"
 [build.environment]
