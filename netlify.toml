@@ -1,6 +1,6 @@
 [build]
   command = "npm run-script build"
-  publish = "/"
+  publish = "src"
   functions = "./functions"
 [build.environment]
   NODE_VERSION = "10"
