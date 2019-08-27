@@ -5,7 +5,7 @@
   "scripts": {
     "start-local": "webpack-dev-server --env.local --progress --hot --open",
     "start": "webpack-dev-server --config ./webpack.config.js",
-    "build": "webpack --config ./webpack.config.js --progress --hot --open"
+    "build": "webpack --mode=production --config ./webpack.config.js"
   },
   "dependencies": {
     "deck.gl": "^7.2.0",
