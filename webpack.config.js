@@ -10,6 +10,7 @@ const CONFIG = {
   },
   output: {
     path: './',
+    publicPath: './',
     library: 'App'
   },
   module: {
