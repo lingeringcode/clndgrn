@@ -11,7 +11,7 @@ const CONFIG = {
   output: {
     path: '/',
     publicPath: '/',
-    filename: 'app.js'
+    filename: 'app.js',
     library: 'App'
   },
   module: {
