@@ -6,11 +6,12 @@ const webpack = require('webpack');
 const CONFIG = {
   mode: 'production',
   entry: {
-    app: '/app.js'
+    app: './app.js'
   },
   output: {
     path: '/',
     publicPath: '/',
+    filename: 'app.js'
     library: 'App'
   },
   module: {
