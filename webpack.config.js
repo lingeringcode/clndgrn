@@ -4,7 +4,7 @@
 const webpack = require('webpack');
 
 const CONFIG = {
-  mode: 'production',
+  mode: 'development',
   entry: {
     app: './app.js'
   },
