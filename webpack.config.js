@@ -9,6 +9,7 @@ const CONFIG = {
     app: './app.js'
   },
   output: {
+    path: './',
     library: 'App'
   },
   module: {
