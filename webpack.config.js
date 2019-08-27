@@ -4,13 +4,13 @@
 const webpack = require('webpack');
 
 const CONFIG = {
-  mode: 'production',
+  mode: 'development',
   entry: {
-    app: './app.js'
+    app: '/app.js'
   },
   output: {
-    path: './',
-    publicPath: './',
+    path: '/',
+    publicPath: '/',
     library: 'App'
   },
   module: {
