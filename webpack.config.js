@@ -2,6 +2,8 @@
 // delete the local development overrides at the bottom of this file
 const path = require('path');
 const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
   mode: 'production',
