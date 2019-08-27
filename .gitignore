@@ -7,5 +7,4 @@ dist
 .env
 .env.*
 .idea
-apikey.js
 
