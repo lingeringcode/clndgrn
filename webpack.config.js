@@ -5,15 +5,12 @@ const webpack = require('webpack');
 
 const CONFIG = {
   mode: 'development',
-
   entry: {
     app: './app.js'
   },
-
   output: {
     library: 'App'
   },
-
   module: {
     rules: [
       {
@@ -31,4 +28,4 @@ const CONFIG = {
 };
 
 // This line enables bundling against src in this repo rather than installed module
-module.exports = env => (env ? require('../../webpack.config.local')(CONFIG)(env) : CONFIG);
+// module.exports = env => (env ? require('../../webpack.config.local')(CONFIG)(env) : CONFIG);
