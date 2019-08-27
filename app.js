@@ -9,7 +9,7 @@ import IconClusterLayer from './icon-cluster-layer';
 const { MAPBOX_API_TOKEN } = process.env; // eslint-disable-line
 
 // Source data CSV
-const DATA_URL = 'data/ondeck-rhetmap.json'; // eslint-disable-line
+const DATA_URL = './data/ondeck-rhetmap.json'; // eslint-disable-line
 
 const INITIAL_VIEW_STATE = {
   longitude: -82.792969,
@@ -100,8 +100,8 @@ export class App extends Component {
   _renderLayers() {
     const {
       data = DATA_URL,
-      iconMapping = 'data/location-icon-mapping.json',
-      iconAtlas = 'data/location-icon-atlas.png',
+      iconMapping = './data/location-icon-mapping.json',
+      iconAtlas = './data/location-icon-atlas.png',
       showCluster = true
     } = this.props;
 
