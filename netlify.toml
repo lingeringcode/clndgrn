@@ -1,5 +1,6 @@
 [build]
-  command = "gridsome build"
+  command = "npm start"
   publish = "dist"
+  functions = "./functions"
 [build.environment]
   NODE_VERSION = "10"
