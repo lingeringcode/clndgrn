@@ -3,7 +3,7 @@
 
 const webpack = require('webpack');
 
-const CONFIG = {
+module.exports = {
   mode: 'production',
   entry: {
     app: './app.js'
