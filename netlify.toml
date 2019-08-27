@@ -1,5 +1,5 @@
 [build]
-  command = "npm run-script build"
+  command = "npm build"
   publish = "/"
   functions = "./functions"
 [build.environment]
