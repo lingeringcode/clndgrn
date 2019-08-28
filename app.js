@@ -13,7 +13,7 @@ const DATA_URL = './data/ondeck-rhetmap.json'; // eslint-disable-line
 const INITIAL_VIEW_STATE = {
   longitude: -95.712891,
   latitude: 37.09024,
-  zoom: 4,
+  zoom: 3,
   maxZoom: 20,
   pitch: 3,
   bearing: 0
