@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "deck.gl": "^7.2.0",
-    "dotenv": "^8.1.0",
+    "dotenv-webpack": "^1.7.0",
     "netlify-lambda": "^1.6.3",
     "path": "^0.12.7",
     "react": "^16.3.0",
