@@ -7,7 +7,6 @@ const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   mode: 'production',
-  target: 'node',
   entry: {
     app: './app.js' //Start webpacker here
   },
@@ -32,7 +31,12 @@ module.exports = {
     ]
   },
   plugins: [
-    new Dotenv()
+    new Dotenv({
+      path: './.env', // load this now instead of the ones in '.env'
+      systemvars: true, // load all the predefined 'process.env' variables which will trump anything local per dotenv specs.
+      silent: false, // hide any errors
+      defaults: true // load '.env.defaults' as the default values if empty.
+    })
   ]
 };
 
