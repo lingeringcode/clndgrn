@@ -10,7 +10,7 @@ authors: Chris Lindgren
 tags:
   - job market
   - data visualization
-coverImage: /images/uploads/rhetmap-heatmap.png
+coverImage: /images/uploads/rhetmap-location-tallies.png
 altattribute: .
 description: >-
   I wrote some JavaScript that 1) retrieves Jim Ridolfo's seasonal market
