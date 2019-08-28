@@ -5,6 +5,7 @@ const webpack = require('webpack');
 
 module.exports = {
   mode: 'production',
+  target: 'node',
   entry: {
     app: './app.js' //Start webpacker here
   },
