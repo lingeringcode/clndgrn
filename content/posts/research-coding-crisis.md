@@ -1,6 +1,7 @@
 ---
 title: 'Responding to the Coding Crisis&#58; From Code Year to Computational Literacy'
 type: Chapter
+research: true
 refereed: true
 inprogress: false
 selected: true

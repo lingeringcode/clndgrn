@@ -1,6 +1,7 @@
 ---
 title: Representing Diversity in Digital Research&#58; Digital Feminist Ethics and Resisting Dominant Normatives
 type: Conference Proceedings
+research: true
 refereed: true
 inprogress: false
 selected: true

@@ -1,5 +1,6 @@
 ---
 type: Article
+research: true
 refereed: true
 inprogress: true
 selected: true

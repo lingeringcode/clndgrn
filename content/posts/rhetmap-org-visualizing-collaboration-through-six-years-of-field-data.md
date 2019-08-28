@@ -1,6 +1,7 @@
 ---
 title: 'Rhetmap.org: Visualizing Collaboration through Six Years of Field Data'
 type: Article
+research: true
 refereed: true
 inprogress: true
 date: 'Accepted, Under Final Review'

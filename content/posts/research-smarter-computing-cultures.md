@@ -1,6 +1,7 @@
 ---
 title: Using Digital Labs to Build Smarter Computing Cultures
-type: research
+type: Article
+research: true
 refereed: true
 inprogress: false
 selected: true
