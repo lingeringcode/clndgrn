@@ -3,7 +3,7 @@ title: >-
   Rhetoric, Composition, and Technical Communication Job Locations (2012-13 —
   2018-19)
 type: DataViz
-refereed: true
+refereed: false
 date: Spring 2019
 pubURL: 'https://rhetmap-locations.clndgrn.com/'
 authors: Chris Lindgren

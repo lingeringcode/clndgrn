@@ -2,6 +2,7 @@
 title: 'Python 3 Module: NTTC (Name That Twitter Community!)'
 type: DataViz
 refereed: false
+research: false
 date: '2019'
 pubURL: 'https://pypi.org/project/nttc/'
 tags:

@@ -41,7 +41,7 @@
                   <div class="content-test">
                     <ResearchInprogressRefereedCard
                       v-for="edge in $page.posts.edges"
-                      v-if="edge.node.inprogress === true"
+                      v-if="edge.node.inprogress === true && edge.node.research === true"
                       :key="edge.node.id"
                       :post="edge.node" />
                   </div>
@@ -52,7 +52,7 @@
                   <div class="content-test">
                     <ResearchRefereedCard
                       v-for="edge in $page.posts.edges"
-                      v-if="edge.node.inprogress === false && edge.node.refereed === true"
+                      v-if="edge.node.inprogress === false && edge.node.refereed === true && edge.node.research === true"
                       :key="edge.node.id"
                       :post="edge.node"/>
                   </div>
@@ -62,7 +62,7 @@
                   <div class="content-test">
                     <ResearchNonRefereedCard
                       v-for="edge in $page.posts.edges"
-                      v-if="edge.node.refereed === false"
+                      v-if="edge.node.refereed === false && edge.node.research === true"
                       :key="edge.node.id"
                       :post="edge.node"/>
                   </div>
