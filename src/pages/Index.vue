@@ -41,7 +41,7 @@
                   <div class="content-test">
                     <ResearchInprogressRefereedCard
                       v-for="edge in $page.posts.edges"
-                      v-if="edge.node.inprogress === true && edge.node.research === true"
+                      v-if="edge.node.research === true && edge.node.inprogress === true"
                       :key="edge.node.id"
                       :post="edge.node" />
                   </div>
@@ -52,7 +52,7 @@
                   <div class="content-test">
                     <ResearchRefereedCard
                       v-for="edge in $page.posts.edges"
-                      v-if="edge.node.inprogress === false && edge.node.refereed === true && edge.node.research === true"
+                      v-if="edge.node.research === true && edge.node.inprogress === false && edge.node.refereed === true"
                       :key="edge.node.id"
                       :post="edge.node"/>
                   </div>
@@ -62,7 +62,7 @@
                   <div class="content-test">
                     <ResearchNonRefereedCard
                       v-for="edge in $page.posts.edges"
-                      v-if="edge.node.refereed === false && edge.node.research === true"
+                      v-if="edge.node.research === true && edge.node.refereed === false"
                       :key="edge.node.id"
                       :post="edge.node"/>
                   </div>
@@ -73,7 +73,7 @@
         </div>
         <div id="teaching-container" class="col-md-6">
           <h2>Teaching</h2>
-          <!-- Publications -->
+          <!-- Teaching -->
           <div class="market-cards melodeon">
             <a @click="showCourse = !showCourse">
               <h3 tooltip="Click to expand/hide content">
@@ -110,7 +110,7 @@
         </div>
         <div id="grants-container" class="col-md-6">
           <h2>Grants</h2>
-          <!-- Publications -->
+          <!-- Grants -->
           <div class="market-cards melodeon">
             <a @click="showGrant = !showGrant">
               <h3 tooltip="Click to expand/hide content">
@@ -134,7 +134,7 @@
         </div>
         <div id="dataviz-container" class="col-md-6">
           <h2>Computational</h2>
-          <!-- Publications -->
+          <!-- Computational -->
           <div class="market-cards melodeon">
             <a @click="showDataviz = !showDataviz">
               <h3 tooltip="Click to expand/hide content">
@@ -168,6 +168,7 @@
       edges {
         node {
           type
+          research
           inprogress
           refereed
           id
@@ -196,6 +197,28 @@
     }
   }
 </page-query>
+
+<select class="form-control" >
+   <option v-for="room in filteredRooms" :key="room.room_id">
+      {{room.room_id}} - {{room.status}}
+   </option>
+</select>
+
+data(){
+  return 
+     rooms:[
+       {status: 'Unavailable'},
+       {status: 'Available'}
+     ]
+  }
+},
+
+computed: {
+  filteredRooms: function () {
+   // will return [{status: 'Available'}]
+    return this.rooms.filter(room => room.status !== 'Unavailable')
+  }
+}
 
 <script>
   import ResearchRefereedCard from '~/components/ResearchRefereedCard.vue'

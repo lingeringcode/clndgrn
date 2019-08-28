@@ -4,6 +4,7 @@ title: >-
   2018-19)
 type: DataViz
 refereed: false
+research: false
 date: Spring 2019
 pubURL: 'https://rhetmap-locations.clndgrn.com/'
 authors: Chris Lindgren

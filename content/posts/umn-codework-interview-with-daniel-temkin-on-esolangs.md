@@ -1,6 +1,7 @@
 ---
 title: UMN CodeWork Interview with Daniel Temkin on Esolangs
 type: Interview
+research: true
 refereed: false
 date: '2015'
 publisher: University of Minnesota - Institute of Advanced Study

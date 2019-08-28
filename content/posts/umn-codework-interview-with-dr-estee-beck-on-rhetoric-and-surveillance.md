@@ -1,6 +1,7 @@
 ---
 title: UMN CodeWork Interview with Dr. Estee Beck on Rhetoric and Surveillance
 type: Interview
+research: true
 date: '2015'
 publisher: University of Minnesota - Institute of Advanced Study
 refereed: false
