@@ -34,8 +34,7 @@ module.exports = {
     new Dotenv({
       path: './.env', // load this now instead of the ones in '.env'
       systemvars: true, // load all the predefined 'process.env' variables which will trump anything local per dotenv specs.
-      silent: false, // hide any errors
-      defaults: true // load '.env.defaults' as the default values if empty.
+      silent: false // hide any errors
     })
   ]
 };
