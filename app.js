@@ -11,11 +11,11 @@ const MAPBOX_API_KEY = process.env.MAPBOX_API_KEY; // eslint-disable-line
 const DATA_URL = './data/ondeck-rhetmap.json'; // eslint-disable-line
 
 const INITIAL_VIEW_STATE = {
-  longitude: -82.792969,
-  latitude: 37.718591,
+  longitude: -95.712891,
+  latitude: 37.09024,
   zoom: 4,
   maxZoom: 20,
-  pitch: 0,
+  pitch: 3,
   bearing: 0
 };
 
