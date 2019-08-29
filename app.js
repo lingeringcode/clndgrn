@@ -82,7 +82,7 @@ export class App extends Component {
     if (!hoveredObject) {
       return null;
     }
-
+    
     return hoveredObject.cluster ? (
       <div className="tooltip" style={{left: x, top: y}}>
         <h5>{hoveredObject.point_count} records</h5>
