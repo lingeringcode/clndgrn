@@ -1,30 +1,24 @@
-This is a minimal standalone version of the IconLayer example
-on [deck.gl](http://deck.gl) website.
+# Rhetmap.org Locations
 
-### Usage
+This is a dynamically loading map of points that show the locations of 6 years of Rhetoric, Composition, and Techcomm jobs (2012-13 — 2018-19).
 
-Copy the content of this folder to your project. 
+## Data format and processing
 
-To see the base map, you need a [Mapbox access token](https://docs.mapbox.com/help/how-mapbox-works/access-tokens/). You can either set an environment variable:
+- The final data set is a list of each U.S.-based job with currently 3 properties of information: 1) Geocoded coordinates (lat, lng), Address, Institution:
+<pre>
+{
+  "coordinates":[-80.420018,37.231681],
+  "citystate":"Blacksburg, VA 24061",
+  "institution":"Virginia Tech"
+},
+...
+</pre>
 
-```bash
-export MapboxAccessToken=<mapbox_access_token>
-```
+## Data processing
 
-Or set `MAPBOX_TOKEN` directly in `app.js`.
-
-Other options can be found at [using with Mapbox GL](../../../docs/get-started/using-with-mapbox-gl.md).
-
-```bash
-# install dependencies
-npm install
-# or
-yarn
-# bundle and serve the app with webpack
-npm start
-```
-
-
-### Data format
-Sample data is stored in [deck.gl Example Data](https://github.com/uber-common/deck.gl-data/tree/master/examples/icon). To use your own data, checkout
-the [documentation of IconLayer](../../../docs/layers/icon-layer.md).
+1. Download the data from [rhetmap.org](http://www.rhetmap.org). Each year must be downloaded from a Google Sheets separately and saved as a CSV file.
+2. Used Node.js/Javascript to:
+   1. combine the CSV files into one JSON output file.
+   2. Clean each address for geocoding and output as CSV file for geocoding.
+   3. Command-line Node.js module ```csvgeocode``` to geocode the addresses and output a new csv with lat and lng.
+   4. Transform the data into a final structure and output as a JSON file.
