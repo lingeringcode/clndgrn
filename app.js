@@ -68,10 +68,12 @@ export class App extends Component {
     if (expandedObjects) {
       return (
         <div className="tooltip interactive" style={{left: x, top: y}}>
-          {expandedObjects.map(({citystate, class: meteorClass}) => {
+          {expandedObjects.map(({citystate, institution, class: meteorClass}) => {
             return (
               <div key={citystate}>
-                <h5>{citystate}</h5>
+                <p>
+                  {institution}: {citystate}
+                </p>
               </div>
             );
           })}
@@ -89,9 +91,9 @@ export class App extends Component {
       </div>
     ) : (
       <div className="tooltip" style={{left: x, top: y}}>
-        <h5>
-          {hoveredObject.citystate}
-        </h5>
+        <p>
+          {hoveredObject.institution}: {hoveredObject.citystate}
+        </p>
       </div>
     );
   }
