@@ -36,7 +36,7 @@
               <div v-if="showRes" id="research" class="market-content">
                 <div id="inprogress">
                   <h5>
-                      Under Review/Refereed
+                      In-Progress/Under Review
                   </h5>
                   <div class="content-test">
                     <ResearchInprogressRefereedCard
