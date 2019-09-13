@@ -9,19 +9,25 @@
 				{{ $static.metaData.siteDescription }}
 			</p>
 			<ul class="btn-social social-nav social-icon-sizing">
-				 <li>
-					 <a href="https://twitter.com/lndgrn" target="_blank" rel="noopener">
-						 <i class="fa fa-twitter fa-1x"></i>
-					 </a>
-					 <span class="screen-reader-text-for-icons">Twitter</span>
-				 </li>
-				 <li>
-					 <a href="https://github.com/lingeringcode" target="_blank" rel="noopener">
-						 <i class="fa fa-github-alt"></i>
-					 </a>
-					 <span class="screen-reader-text-for-icons">Github</span>
-				 </li>
-			 </ul>
+				<li>
+          <a href="/images/uploads/clindgrencv.pdf" target="_blank" rel="noopener">
+            <i class="fa fa-file-o fa-1x"></i>
+          </a>
+          <span class="screen-reader-text-for-icons">Curriculum Vitae [PDF]</span>
+        </li>
+				<li>
+					<a href="https://twitter.com/lndgrn" target="_blank" rel="noopener">
+						<i class="fa fa-twitter fa-1x"></i>
+					</a>
+					<span class="screen-reader-text-for-icons">Twitter</span>
+				</li>
+				<li>
+					<a href="https://github.com/lingeringcode" target="_blank" rel="noopener">
+						<i class="fa fa-github-alt"></i>
+					</a>
+					<span class="screen-reader-text-for-icons">Github</span>
+				</li>
+			</ul>
 		</div>
 	</div>
 </template>
