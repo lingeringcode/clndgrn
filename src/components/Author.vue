@@ -13,7 +13,7 @@
           <a href="/images/uploads/clindgrencv.pdf" target="_blank" rel="noopener">
             <i class="fa fa-file-o fa-1x"></i>
           </a>
-          <span class="screen-reader-text-for-icons">Curriculum Vitae [PDF]</span>
+          <span class="screen-reader-text-for-icons">Curriculum Vitae (PDF)</span>
         </li>
 				<li>
 					<a href="https://twitter.com/lndgrn" target="_blank" rel="noopener">
