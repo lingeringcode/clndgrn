@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Chris Lindgren, Ph.D.',
-  siteDescription: 'Scholar invested in changing how we understand computer coding as writing, and how computational methods open up new inquiries of rhetoric.',
+  siteDescription: 'Scholar invested in changing how we understand computer coding as writing, and how computational methods open up new inquiries about rhetoric in the world.',
 
   plugins: [
     {
