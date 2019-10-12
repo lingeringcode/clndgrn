@@ -4,7 +4,7 @@ title: >-
   Visualization
 type: Article
 research: true
-refereed: false
+refereed: true
 inprogress: true
 selected: true
 tags:
