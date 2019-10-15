@@ -11,7 +11,7 @@ tags:
   - science and technology studies
   - multidisciplinary
 fields: []
-coverImage: /images/uploads/directed_p2_c_all.png
+coverImage: /images/uploads/update-ad-infinitum.gif
 altattribute: Community-detected network graphs
 ---
 
