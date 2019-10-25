@@ -4,6 +4,7 @@ title: >-
   tweet data
 type: DataViz
 refereed: false
+date: '2019'
 pubURL: 'https://pypi.org/project/narrator/'
 tags:
   - data processing
