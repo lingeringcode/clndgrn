@@ -1,7 +1,7 @@
 ---
 title: >-
-  Narrator: Python 3 Module to help develop a broader narrative through-line of
-  tweet data
+  Narrator: Python 3 Module to help develop a narrative through-line of tweet
+  data
 type: DataViz
 refereed: false
 date: '2019'
