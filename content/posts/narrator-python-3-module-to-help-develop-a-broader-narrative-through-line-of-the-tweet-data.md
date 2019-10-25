@@ -1,7 +1,7 @@
 ---
 title: >-
   Narrator: Python 3 Module to help develop a broader narrative through-line of
-  the tweet data
+  tweet data
 type: DataViz
 refereed: false
 pubURL: 'https://pypi.org/project/narrator/'
