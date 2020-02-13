@@ -1,5 +1,6 @@
 ---
 title: 'Review: Name That Twitter Community!'
+type: Software
 research: true
 refereed: true
 selected: true
