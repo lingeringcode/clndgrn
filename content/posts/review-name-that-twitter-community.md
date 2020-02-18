@@ -3,7 +3,8 @@ title: 'Review: Name That Twitter Community!'
 type: Software
 research: true
 refereed: true
-selected: true
+inprogress: false
+selected: false
 date: '2020'
 publisher: Reviews in Digital Humanities
 pubURL: 'https://reviewsindh.pubpub.org/pub/nttc'
