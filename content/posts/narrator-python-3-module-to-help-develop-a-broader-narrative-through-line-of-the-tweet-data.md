@@ -1,7 +1,5 @@
 ---
-title: >-
-  Narrator: Python 3 Module to help develop a narrative through-line of tweet
-  data
+title: 'Python 3 Module: Narrator -- Develop a narrative through-line of tweet data'
 type: DataViz
 refereed: false
 date: '2019'
@@ -15,4 +13,3 @@ fields: []
 coverImage: /images/uploads/d3_small_multiples.png
 altattribute: Small multiple line chart
 ---
-
