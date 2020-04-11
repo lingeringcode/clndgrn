@@ -1,12 +1,12 @@
 ---
-title: >-
-  Aggregate Perspectives: Linking the Interpretative Levels of Data Sets to Data
-  Visualization
+title: "Aggregate Perspectives: Linking the Interpretative Levels of Data Sets
+  to Data Visualization"
 type: Article
 research: true
 refereed: true
 inprogress: true
 selected: true
+date: Submitting Summer 2020 for review
 tags:
   - invention
   - interpretative levels
@@ -16,4 +16,3 @@ tags:
 fields: []
 coverImage: /images/uploads/noxious-024.png
 ---
-
