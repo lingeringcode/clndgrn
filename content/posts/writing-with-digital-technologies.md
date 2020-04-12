@@ -3,7 +3,7 @@ title: Writing with Digital Technologies (WRIT 4662w)
 type: Course
 university: University of Minnesota
 date: Fall 2015
-pubURL: /assets/docs/writ4662f15-syllabus.pdf
+pubURL: https://lingeringcode.github.io/4662wf15
 authors: Chris Lindgren
 tags:
   - technical communication
@@ -12,4 +12,3 @@ tags:
 fields: []
 coverImage: /images/uploads/writ4662wf15-220.png
 ---
-
