@@ -15,7 +15,7 @@
           I am also interested in applying computational social science methods to feminist and anti-racist rhetorical theories, as a means to differently understand social relationships in digital environments. I am currently collaborating on a project that examines Twitter discourse surrounding Trump's plans to build the border wall before, during, and after his administration's zero-tolerance immigration policy that separated children from their families.
         </p>
         <p>
-          You can reach me at lindgren@vt.edu or find me on Twitter as <a href="https://twitter.com/lndgrn" target="_blank" title="Link to Lindgren's Twitter account.">@lndgrn</a>.<br /><br />Here is my CV [<a href="/images/uploads/clindgrencv.pdf" target="_blank" rel="noopener">PDF</a>] for more information.
+          You can reach me at lindgren@vt.edu or find me on Twitter as <a href="https://twitter.com/lndgrn" target="_blank" title="Link to Lindgren's Twitter account.">@lndgrn</a>.<br /><br />Here is my CV [<a href="/assets/docs/clindgrencv.pdf" target="_blank" rel="noopener">PDF</a>] for more information.
         </p>
       </div>
     </section>

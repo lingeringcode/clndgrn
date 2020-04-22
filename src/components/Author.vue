@@ -10,7 +10,7 @@
 			</p>
 			<ul class="btn-social social-nav social-icon-sizing">
 				<li>
-          <a href="/images/uploads/clindgrencv.pdf" target="_blank" rel="noopener">
+          <a href="/assets/docs/clindgrencv.pdf" target="_blank" rel="noopener">
             <i class="fa fa-file-o fa-1x"></i>
           </a>
           <span class="screen-reader-text-for-icons">Curriculum Vitae (PDF)</span>
