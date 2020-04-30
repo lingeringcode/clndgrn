@@ -13,7 +13,7 @@
     "@gridsome/transformer-remark": "^0.3.2",
     "d3": "^5.9.7",
     "gridsome": "^0.7.14",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "node-sass": "^4.13.1",
