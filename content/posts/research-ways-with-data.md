@@ -1,11 +1,11 @@
 ---
-title: "Code senses and distributions: A case of the dialectics of coding with data"
+title: "Coding senses and distributions: A case of the dialectics of coding with data"
 type: Article
 research: true
 refereed: true
 inprogress: true
 selected: true
-date: Jan. 2021
+date: Accepted for Jan. 2021
 pubname: Written Communication
 pubURL: \#
 authors: Chris Lindgren
