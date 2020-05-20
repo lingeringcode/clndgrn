@@ -7,9 +7,14 @@ inprogress: true
 date: Accepted for Jan. 2021
 pubname: Journal of Business and Technical Communication
 tags:
-  - tag
+  - data visualization
+  - visual arguments
+  - COVID-19
+  - interpretive levels
+  - presence
 fields:
-  - tag
+  - technical communication
+  - rhetoric
 coverImage: /images/uploads/ft_elongated_3.png
 altattribute: Financial Times logarithmic chart of COVID-19 confirmed cases per country.
 ---
