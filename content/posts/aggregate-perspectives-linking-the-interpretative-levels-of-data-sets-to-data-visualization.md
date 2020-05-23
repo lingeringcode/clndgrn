@@ -1,6 +1,5 @@
 ---
-title: "Aggregate Perspectives: Linking the Interpretative Levels of Data Sets
-  to Data Visualization"
+title: "The rhetorics of data analysis: How indices provide aggregate perspectives"
 type: Article
 research: true
 refereed: true
