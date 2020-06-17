@@ -10,6 +10,7 @@
               <a :href="post.pubURL" target="_blank" rel="noopener">
                 <h6 v-html="post.title" />
               </a>
+              <span v-html="post.pubname" />
             </div>
             <PostMeta class="post-card__meta" :post="post" />
             <PostTags class="post-card__tags" :post="post" />
