@@ -7,9 +7,9 @@ date: Spring 2020
 pubURL: /assets/docs/lindgren-engl6344-sp20-dig-rhet.pdf
 tags:
   - digital rhetoric
+  - racial capitalism
   - graduate course
   - science and technology studies
-  - racial capitalism
 fields: []
 coverImage: /images/uploads/update-ad-infinitum.gif
 altattribute: Community-detected network graphs
