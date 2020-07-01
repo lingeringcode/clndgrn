@@ -7,7 +7,7 @@ date: Summer 2020
 funder: "Virginia Tech: Center for Humanities"
 authors: Chris Lindgren
 grant: true
-granttitle: CfH Summer Stipend
+granttitle: Center for Humanities Summer Stipend
 grantamount: $4,000
 tags:
   - white supremacist rhetorics

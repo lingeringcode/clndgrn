@@ -7,7 +7,7 @@
               v-if="grant.coverImage"
               :src="grant.coverImage" />
             <div>
-              <p>{{grant.authors}}. <a v-if="grant.url" :href="grant.url" target="_blank" rel="noopener">{{grant.title}}</a><span v-else>{{grant.title}}</span>. ({{grant.date}}). {{grant.granttitle}}</p>
+              <p>{{grant.authors}}. <a v-if="grant.url" :href="grant.url" target="_blank" rel="noopener">{{grant.title}}</a><span v-else>{{grant.title}}</span>. ({{grant.date}}). <span v-if="grant.funder" {{grant.funder}}. </span> {{grant.granttitle}}. </p>
               <p>
                 Amount: <span v-html="grant.grantamount" />
               </p>
