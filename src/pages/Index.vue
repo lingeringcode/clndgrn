@@ -139,20 +139,19 @@
           <h2>Computational</h2>
           <!-- Computational -->
           <div class="market-cards melodeon">
-            <a @click="showDataviz = !showDataviz">
+            <a @click="showComputational = !showComputational">
               <h3 tooltip="Click to expand/hide content">
                 Projects
               </h3>
             </a>
             <transition name="slide-fade">
-              <div v-if="showDataviz" id="dataviz" class="market-content">
+              <div v-if="showComputational" id="dataviz" class="market-content">
                 <div>
                   <div class="content-test">
-                    <DatavizCard
-                      v-for="edge in $page.posts.edges"
-                      v-if="edge.node.type === 'DataViz'"
+                    <ComputationalCard
+                      v-for="edge in $page.computational.edges"
                       :key="edge.node.id"
-                      :post="edge.node" />
+                      :computational="edge.node" />
                   </div>
                 </div>
               </div>
@@ -220,6 +219,30 @@
         }
       }
     },
+    computational: allComputational {
+      edges {
+        node {
+          type
+          id
+          title
+          url
+          path
+          tags {
+            id
+            title
+            path
+          }
+          date
+          description
+          coverImage (width: 220)
+          ...on Computational {
+              id
+              title
+              path
+          }
+        }
+      }
+    },
     posts: allPost {
       edges {
         node {
@@ -256,7 +279,7 @@
   import ResearchInProgressCard from '~/components/ResearchInProgressCard.vue'
   import TeachingCard from '~/components/TeachingCard.vue'
   import GrantCard from '~/components/GrantCard.vue'
-  import DatavizCard from '~/components/DatavizCard.vue'
+  import ComputationalCard from '~/components/ComputationalCard.vue'
 
   export default {
     data: function() {
@@ -264,7 +287,7 @@
         showRes: false,
         showCourse: false,
         showGrant: false,
-        showDataviz: false
+        showComputational: false
       };
     },
     components: {
@@ -273,7 +296,7 @@
       ResearchInProgressCard,
       TeachingCard,
       GrantCard,
-      DatavizCard
+      ComputationalCard
     },
     metaInfo: {
       title: 'Home'

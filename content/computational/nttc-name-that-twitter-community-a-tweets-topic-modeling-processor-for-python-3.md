@@ -1,10 +1,7 @@
 ---
 title: 'Python 3 Module: NTTC (Name That Twitter Community!)'
-type: DataViz
-research: false
-refereed: false
 date: '2019'
-pubURL: 'https://nttc.readthedocs.io/en/latest/'
+url: 'https://nttc.readthedocs.io/en/latest/'
 tags:
   - data visualization
   - network analysis

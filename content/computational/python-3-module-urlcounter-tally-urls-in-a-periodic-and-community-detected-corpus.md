@@ -1,10 +1,9 @@
 ---
 title: "Python 3 Module: urlcounter -- Tally URLs in a periodic and
   community-detected corpus"
-type: DataViz
-refereed: false
+type: module
 date: "2020"
-pubURL: https://urlcounter.readthedocs.io/en/latest/
+url: https://urlcounter.readthedocs.io/en/latest/
 tags:
   - Python 3
   - code library

@@ -63,6 +63,31 @@ collections:
       - {label: "ALTattribute", name: "altattribute", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "computational" # Used in routes, e.g., /admin/collections/blog
+    label: "Computational" # Used in the UI
+    folder: "content/computational" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    extension: 'md'
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: 'Type', name: 'type', widget: 'select', options: ['data visualization', 'module'], required: false}
+      - {label: "Selected", name: "selected", widget: "boolean", required: false}
+      - {label: "Date", name: "date", widget: "string", required: false}
+      - {label: "Url", name: "url", widget: "string", required: false}
+      - {label: "Authors", name: "authors", widget: "string", required: false}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        field: {label: Name, name: name, widget: string, default: "tag", required: false}
+      - label: "Fields"
+        name: "fields"
+        widget: "list"
+        field: {label: Name, name: name, widget: string, default: "tag", required: false}
+      - {label: "Cover Image", name: "coverImage", widget: "image", required: false}
+      - {label: "ALTattribute", name: "altattribute", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
     folder: "content/posts" # The path to the folder where the documents are stored

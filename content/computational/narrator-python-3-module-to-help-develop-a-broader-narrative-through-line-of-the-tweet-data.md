@@ -1,9 +1,7 @@
 ---
 title: 'Python 3 Module: Narrator -- Develop a narrative through-line of tweet data'
-type: DataViz
-refereed: false
 date: '2019'
-pubURL: 'https://pypi.org/project/narrator/'
+url: 'https://pypi.org/project/narrator/'
 tags:
   - data processing
   - data visualization
