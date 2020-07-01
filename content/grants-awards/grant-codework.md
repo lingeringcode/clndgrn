@@ -1,15 +1,15 @@
 ---
-type: Grant
-inprogress: false
-grant: true
-title: CodeWork&#58; Exploring Digital Studies through Code
+type: grant
+title: 'CodeWork: Exploring Digital Studies through Code'
 date: "2014"
-granttitle: Institute for Advanced Study&#58; Research and Creative Collaborative
+granttitle: 'Institute for Advanced Study: Research and Creative Collaborative'
 grantamount: "$10,000"
-pubURL: http://umncodework.github.io/
+url: https://umncodework.github.io/
 authors: Justin Schell, Chris Lindgren, Alison Link, and Jeff Kerzner
 tags:
   - computational literacy
+  - coding literacy
+  - mass literacy
   - public outreach
   - literacy crisis discourse
   - Code Year

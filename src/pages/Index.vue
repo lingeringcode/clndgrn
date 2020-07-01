@@ -112,7 +112,7 @@
           </div>
         </div>
         <div id="grants-container" class="col-md-6">
-          <h2>Grants</h2>
+          <h2>Grants &amp; Awards</h2>
           <!-- Grants -->
           <div class="market-cards melodeon">
             <a @click="showGrant = !showGrant">
@@ -125,10 +125,9 @@
                 <div>
                   <div class="content-test">
                     <GrantCard
-                      v-for="edge in $page.posts.edges"
-                      v-if="edge.node.grant === true"
+                      v-for="edge in $page.grants.edges"
                       :key="edge.node.id"
-                      :post="edge.node" />
+                      :grant="edge.node" />
                   </div>
                 </div>
               </div>
@@ -243,16 +242,15 @@
         }
       }
     },
-    posts: allPost {
+    grants: allGrant {
       edges {
         node {
-          type
-          id
           title
+          authors
+          id
           granttitle
           grantamount
-          grant
-          pubURL
+          url
           path
           tags {
             id
@@ -262,11 +260,6 @@
           date
           description
           coverImage (width: 220)
-          ...on Post {
-              id
-              title
-              path
-          }
         }
       }
     }

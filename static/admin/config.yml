@@ -88,20 +88,19 @@ collections:
       - {label: "ALTattribute", name: "altattribute", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
-    folder: "content/posts" # The path to the folder where the documents are stored
+  - name: "grants" # Used in routes, e.g., /admin/collections/blog
+    label: "Grants" # Used in the UI
+    folder: "content/grants-awards" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     extension: 'md'
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string", required: false}
-      - {label: "Type", name: "type", widget: "string", required: false}
-      - {label: "Refereed", name: "refereed", widget: "boolean", required: false, default: false}
-      - {label: "Selected", name: "selected", widget: "boolean", required: false}
+      - {label: 'Type', name: 'type', widget: 'select', options: ['grant', 'award'], required: false}
+      - {label: "Funded", name: "funded", widget: "boolean", required: false, default: false}
       - {label: "Date", name: "date", widget: "string", required: false}
-      - {label: "Publisher", name: "publisher", widget: "string", required: false}
-      - {label: "PubURL", name: "pubURL", widget: "string", required: false}
+      - {label: "Funder", name: "funder", widget: "string", required: false}
+      - {label: "Url", name: "url", widget: "string", required: false}
       - {label: "Authors", name: "authors", widget: "string", required: false}
       - {label: "Grant", name: "grant", widget: "boolean", required: false}
       - {label: "GrantTitle", name: "granttitle", widget: "string", required: false}

@@ -1,20 +1,21 @@
-<template v-if="post.grant === true">
-    <div class="course-modal-width" :class="{'post-card--has-poster' : post.poster}">
+<template>
+    <div class="course-modal-width">
       <div class="portfolio-item-container">
         <div class="content">
           <div class="body">
             <img  class="pi-image"
-              v-if="post.coverImage"
-              :src="post.coverImage" />
+              v-if="grant.coverImage"
+              :src="grant.coverImage" />
             <div>
-              <h6 v-html="post.title" />
+              <p>{{grant.authors}}. <a v-if="grant.url" :href="grant.url" target="_blank" rel="noopener">{{grant.title}}</a><span v-else>{{grant.title}}</span>. ({{grant.date}}). {{grant.granttitle}}</p>
               <p>
-                Amount: <span v-html="post.grantamount" />
+                Amount: <span v-html="grant.grantamount" />
               </p>
             </div>
-            <g-link class="post-card__link" :to="post.puburl">Link</g-link>
-            <PostMeta class="post-card__meta" :post="post" />
-            <PostTags class="post-card__tags" :post="post" />
+            <g-link class="post-card__link" :to="grant.url">Link</g-link>
+            <div style="grid-column:1/3;">
+              <GrantTags class="post-card__tags" :grant="grant" />
+            </div>
           </div>
         </div>
       </div>
@@ -22,14 +23,12 @@
 </template>
 
 <script>
-  import PostMeta from '~/components/PostMeta'
-  import PostTags from '~/components/PostTags'
+  import GrantTags from '~/components/GrantTags'
 
   export default {
     components: {
-      PostMeta,
-      PostTags
+      GrantTags
     },
-    props: ['post'],
+    props: ['grant'],
   }
 </script>

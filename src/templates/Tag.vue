@@ -46,8 +46,10 @@
               coverImage (width: 220, blur: 10)
               content
             }
-            ...on Post {
+            ...on Grant {
               title
+              authors
+              type
               path
               description
               coverImage (width: 220, blur: 10)
@@ -63,6 +65,7 @@
 <script>
 import Author from '~/components/Author.vue'
 import TeachingCard from '~/components/TeachingCard.vue'
+import GrantCard from '~/components/GrantCard.vue'
 import ResearchInProgressCard from '~/components/ResearchInProgressCard.vue'
 import ResearchRefereedCard from '~/components/ResearchRefereedCard.vue'
 import ResearchNonRefereedCard from '~/components/ResearchNonRefereedCard.vue'
@@ -71,6 +74,7 @@ export default {
   components: {
     Author,
     TeachingCard,
+    GrantCard,
     ResearchInProgressCard,
     ResearchRefereedCard,
     ResearchNonRefereedCard

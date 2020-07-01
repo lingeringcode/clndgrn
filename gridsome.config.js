@@ -44,7 +44,6 @@ module.exports = {
       }
     },
     {
-      // Create omputational projects from markdown files
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Computational',
@@ -61,11 +60,11 @@ module.exports = {
       }
     },
     {
-      // Create posts from markdown files
+      // Create grant-awards projects from markdown files
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Post',
-        path: 'content/posts/*.md',
+        typeName: 'Grant',
+        path: 'content/grants-awards/*.md',
         route: '/:slug',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
