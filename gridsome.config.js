@@ -44,6 +44,7 @@ module.exports = {
       }
     },
     {
+      // Create computational projects from markdown files
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Computational',
