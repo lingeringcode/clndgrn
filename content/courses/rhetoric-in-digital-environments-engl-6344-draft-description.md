@@ -1,10 +1,9 @@
 ---
 title: Rhetoric in Digital Environments (ENGL 6344)
-type: Course
-refereed: false
+type: graduate
 university: Virginia Tech
 date: Spring 2020
-pubURL: /assets/docs/lindgren-engl6344-sp20-dig-rhet.pdf
+url: /assets/docs/lindgren-engl6344-sp20-dig-rhet.pdf
 tags:
   - digital rhetoric
   - racial capitalism

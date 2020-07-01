@@ -13,7 +13,7 @@
             (<span v-html="publication.date" />). 
             <a :href="publication.pubURL" target="_blank" rel="noopener">
               <span v-html="publication.title" /></a>. 
-              <span v-if="publication.type === 'article' || publication.type === 'interview'">
+              <span v-if="publication.type === 'article'">
                 <em>{{publication.journal}}</em>
               </span>
               <span v-if="publication.type === 'chapter'">
@@ -37,7 +37,6 @@
       edges {
         node {
           type
-          refereed
           process
           authors
           collection

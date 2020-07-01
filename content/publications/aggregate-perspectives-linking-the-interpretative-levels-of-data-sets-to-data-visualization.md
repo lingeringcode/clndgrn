@@ -1,11 +1,12 @@
 ---
 title: "The rhetorics of data analysis: How indices provide aggregate perspectives"
-type: Article
-research: true
+authors: Chris Lindgren
+type: article
 refereed: true
-inprogress: true
+process: inprogress
 selected: true
-date: Submitting Summer 2020 for review
+journal: Technical Communication Quarterly
+date: Submitting by Summer 2020
 tags:
   - invention
   - interpretative levels

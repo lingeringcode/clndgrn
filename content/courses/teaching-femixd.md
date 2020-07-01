@@ -1,9 +1,9 @@
 ---
 title: Feminism and Interaction Design (Senior Seminar)
-type: Course
+type: undergraduate
 university: Virginia Tech
 date: Spring 2019
-pubURL: /assets/docs/engl4874s18-syllabus.pdf
+url: /assets/docs/engl4874s18-syllabus.pdf
 authors: 'Jennifer Sano-Fanchini, modified by Chris Lindgren'
 tags:
   - technical communication

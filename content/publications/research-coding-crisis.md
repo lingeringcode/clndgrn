@@ -1,17 +1,18 @@
 ---
 title: 'Responding to the Coding Crisis&#58; From Code Year to Computational Literacy'
-type: Chapter
-research: true
+type: chapter
 refereed: true
-inprogress: false
+process: published
 selected: true
 date: '2015'
 publisher: Computers and Composition Digital Press
-pubname: 'Strategic Discourse&#58; The Politics of (New) Literacy Crises'
+collection: 'Strategic Discourse&#58; The Politics of (New) Literacy Crises'
 pubURL: 'http://ccdigitalpress.org/strategic/'
 authors: Kevin Brooks & Chris Lindgren
 tags:
   - computational literacy
+  - coding literacy
+  - mass literacy
   - public outreach
   - literacy crisis discourse
   - Code Year

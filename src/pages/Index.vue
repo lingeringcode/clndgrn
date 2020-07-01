@@ -35,36 +35,39 @@
             <transition name="slide-fade">
               <div v-if="showRes" id="research" class="market-content">
                 <div id="inprogress">
-                  <h5>
-                      In-Progress/Under Review
-                  </h5>
                   <div class="content-test">
-                    <ResearchInprogressRefereedCard
-                      v-for="edge in $page.posts.edges"
-                      v-if="edge.node.research === true && edge.node.inprogress === true"
-                      :key="edge.node.id"
-                      :post="edge.node" />
+                    <div class="course-modal-width">
+                      <h5>Under Review / In-Progress</h5>
+                      <ResearchInProgressCard
+                        v-for="edge in $page.publications.edges"
+                        v-if="edge.node.process === 'inprogress'"
+                        :key="edge.node.id"
+                        :publication="edge.node" />
+                    </div>
                   </div>
                 </div>
                 <div id="refereed">
-                  <h5>
-                      Refereed (Selected)</h5>
                   <div class="content-test">
-                    <ResearchRefereedCard
-                      v-for="edge in $page.posts.edges"
-                      v-if="edge.node.research === true && edge.node.inprogress === false && edge.node.refereed === true"
-                      :key="edge.node.id"
-                      :post="edge.node"/>
+                    <div class="course-modal-width">
+                      <h5>Refereed</h5>
+                      <ResearchRefereedCard
+                        v-for="edge in $page.publications.edges"
+                        v-if="edge.node.process === 'published' && edge.node.refereed === true"
+                        :key="edge.node.id"
+                        :publication="edge.node"/>
+                    </div>
                   </div>
                 </div>
-                <div id="non-refereed">
-                  <h5>Non-Refereed</h5>
+                <div id="refereed">
                   <div class="content-test">
-                    <ResearchNonRefereedCard
-                      v-for="edge in $page.posts.edges"
-                      v-if="edge.node.research === true && edge.node.refereed === false"
-                      :key="edge.node.id"
-                      :post="edge.node"/>
+                    <div class="course-modal-width">
+                      <h5>Non-Refereed</h5>
+                      <ResearchRefereedCard
+                        v-for="edge in $page.publications.edges"
+                        v-if="edge.node.process === 'published' && edge.node.refereed === false"
+                        :key="edge.node.id"
+                        :publication="edge.node"/>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -88,20 +91,20 @@
                       Virginia Tech
                     </h5>
                     <TeachingCard
-                      v-for="edge in $page.posts.edges"
-                      v-if="edge.node.type === 'Course' && edge.node.university === 'Virginia Tech'"
+                      v-for="edge in $page.courses.edges"
+                      v-if="edge.node.university === 'Virginia Tech'"
                       :key="edge.node.id"
-                      :post="edge.node" />
+                      :course="edge.node" />
                   </div>
                   <div id="teaching-umn" class="content-test">
                     <h5>
                       University of Minnesota
                     </h5>
                     <TeachingCard
-                      v-for="edge in $page.posts.edges"
-                      v-if="edge.node.type === 'Course' && edge.node.university === 'University of Minnesota'"
+                      v-for="edge in $page.courses.edges"
+                      v-if="edge.node.university === 'University of Minnesota'"
                       :key="edge.node.id"
-                      :post="edge.node" />
+                      :course="edge.node" />
                   </div>
                 </div>
               </div>
@@ -164,16 +167,65 @@
 
 <page-query>
   {
+    publications: allPublication {
+      edges {
+        node {
+          type
+          refereed
+          process
+          authors
+          collection
+          publisher
+          selected
+          id
+          title
+          journal
+          volume
+          issue
+          pubURL
+          path
+          tags {
+            id
+            title
+            path
+          }
+          date
+          abstract
+          coverImage (width: 220)
+        }
+      }
+    },
+    courses: allCourse {
+      edges {
+        node {
+          type
+          id
+          title
+          university
+          url
+          path
+          tags {
+            id
+            title
+            path
+          }
+          date
+          description
+          coverImage (width: 220)
+          ...on Course {
+              id
+              title
+              path
+          }
+        }
+      }
+    },
     posts: allPost {
       edges {
         node {
           type
-          research
-          inprogress
-          refereed
           id
           title
-          university
           granttitle
           grantamount
           grant
@@ -198,32 +250,10 @@
   }
 </page-query>
 
-<select class="form-control" >
-   <option v-for="room in filteredRooms" :key="room.room_id">
-      {{room.room_id}} - {{room.status}}
-   </option>
-</select>
-
-data(){
-  return 
-     rooms:[
-       {status: 'Unavailable'},
-       {status: 'Available'}
-     ]
-  }
-},
-
-computed: {
-  filteredRooms: function () {
-   // will return [{status: 'Available'}]
-    return this.rooms.filter(room => room.status !== 'Unavailable')
-  }
-}
-
 <script>
   import ResearchRefereedCard from '~/components/ResearchRefereedCard.vue'
   import ResearchNonRefereedCard from '~/components/ResearchNonRefereedCard.vue'
-  import ResearchInprogressRefereedCard from '~/components/ResearchInprogressRefereedCard.vue'
+  import ResearchInProgressCard from '~/components/ResearchInProgressCard.vue'
   import TeachingCard from '~/components/TeachingCard.vue'
   import GrantCard from '~/components/GrantCard.vue'
   import DatavizCard from '~/components/DatavizCard.vue'
@@ -240,7 +270,7 @@ computed: {
     components: {
       ResearchRefereedCard,
       ResearchNonRefereedCard,
-      ResearchInprogressRefereedCard,
+      ResearchInProgressCard,
       TeachingCard,
       GrantCard,
       DatavizCard

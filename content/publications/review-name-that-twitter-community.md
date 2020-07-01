@@ -1,12 +1,11 @@
 ---
-title: 'Review: Name That Twitter Community!'
-type: Software
-research: true
+title: 'NTTC: Name That Twitter Community!'
+type: article
+authors: Chris Lindgren
 refereed: true
-inprogress: false
-selected: false
+process: published
 date: '2020'
-publisher: Reviews in Digital Humanities
+journal: Reviews in Digital Humanities
 pubURL: 'https://reviewsindh.pubpub.org/pub/nttc'
 tags:
   - computational

@@ -1,11 +1,10 @@
 ---
 title: "Rhetmap.org: Visualizing Collaboration through Six Years of Field Data"
-type: Article
-research: true
+type: article
 refereed: true
-inprogress: true
-date: Accepted, Fall 2020
-pubname: "Kairos: A Journal of Rhetoric, Technology, and Pedagogy"
+process: inprogress
+date: Accepted for Fall 2020
+journal: "Kairos: A Journal of Rhetoric, Technology, and Pedagogy"
 pubURL: "#"
 authors: Jim Ridolfo and Chris Lindgren
 tags:

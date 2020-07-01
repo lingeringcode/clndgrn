@@ -4,6 +4,65 @@ backend:
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
+  - name: "publications"
+    label: "Publications"
+    folder: "content/publications" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    extension: 'md'
+    fields: # The fields for each document, usually in front matter
+      - {label: 'Type', name: 'type', widget: 'select', options: ['article', 'chapter', 'book', 'edited collection', 'edited journal', 'proceedings', 'interview'], required: true}
+      - {label: 'Process', name: 'process', widget: 'select', options: ['inprogress', 'published'], required: true}
+      - {label: "Refereed", name: "refereed", widget: "boolean", required: false, default: false}
+      - {label: "Selected", name: "selected", widget: "boolean", required: false}
+      - {label: "Authors", name: "authors", widget: "string", required: false}
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Date", name: "date", widget: "string", required: false}
+      - {label: "Publisher", name: "publisher", widget: "string", required: false}
+      - {label: "Journal", name: "journal", widget: "string", required: false}
+      - {label: "Collection", name: "collection", widget: "string", required: false}
+      - {label: "Volume", name: "volume", widget: "string", required: false}
+      - {label: "Issue", name: "issue", widget: "string", required: false}
+      - {label: "Pages", name: "pages", widget: "string", required: false}
+      - {label: "DOI", name: "doi", widget: "string", required: false}
+      - {label: "PubURL", name: "pubURL", widget: "string", required: false}
+      - {label: "Abstract", name: "abstract", widget: "markdown", required: false}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        field: {label: Name, name: name, widget: string, default: "tag", required: false}
+      - label: "Fields"
+        name: "fields"
+        widget: "list"
+        field: {label: Name, name: name, widget: string, default: "tag", required: false}
+      - {label: "Cover Image", name: "coverImage", widget: "image", required: false}
+      - {label: "ALTattribute", name: "altattribute", widget: "string", required: false}
+  - name: "courses" # Used in routes, e.g., /admin/collections/blog
+    label: "Courses" # Used in the UI
+    folder: "content/courses" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    extension: 'md'
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: 'Type', name: 'type', widget: 'select', options: ['graduate', 'undergraduate'], required: false}
+      - {label: "University", name: "university", widget: "string", required: false}
+      - {label: "Selected", name: "selected", widget: "boolean", required: false}
+      - {label: "Date", name: "date", widget: "string", required: false}
+      - {label: "Url", name: "url", widget: "string", required: false}
+      - {label: "Authors", name: "authors", widget: "string", required: false}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        field: {label: Name, name: name, widget: string, default: "tag", required: false}
+      - label: "Fields"
+        name: "fields"
+        widget: "list"
+        field: {label: Name, name: name, widget: string, default: "tag", required: false}
+      - {label: "Cover Image", name: "coverImage", widget: "image", required: false}
+      - {label: "ALTattribute", name: "altattribute", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "markdown", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
     folder: "content/posts" # The path to the folder where the documents are stored
@@ -13,14 +72,10 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string", required: false}
       - {label: "Type", name: "type", widget: "string", required: false}
-      - {label: "Research", name: "research", widget: "boolean", required: false}
       - {label: "Refereed", name: "refereed", widget: "boolean", required: false, default: false}
-      - {label: "Inprogress", name: "inprogress", widget: "boolean", required: false}
-      - {label: "University", name: "university", widget: "string", required: false}
       - {label: "Selected", name: "selected", widget: "boolean", required: false}
       - {label: "Date", name: "date", widget: "string", required: false}
       - {label: "Publisher", name: "publisher", widget: "string", required: false}
-      - {label: "Pubname", name: "pubname", widget: "string", required: false}
       - {label: "PubURL", name: "pubURL", widget: "string", required: false}
       - {label: "Authors", name: "authors", widget: "string", required: false}
       - {label: "Grant", name: "grant", widget: "boolean", required: false}

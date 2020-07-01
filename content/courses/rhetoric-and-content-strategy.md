@@ -1,9 +1,9 @@
 ---
 title: Rhetoric and Content Strategy (ENGL 4814)
-type: Course
+type: undergraduate
 university: Virginia Tech
 date: 'Spring 2018, Fall 2018'
-pubURL: /assets/docs/lindgren-engl4814-content-strategy.pdf
+url: /assets/docs/lindgren-engl4814-content-strategy.pdf
 authors: Chris Lindgren
 tags:
   - content strategy

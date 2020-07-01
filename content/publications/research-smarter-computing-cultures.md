@@ -1,17 +1,18 @@
 ---
 title: Using Digital Labs to Build Smarter Computing Cultures
-type: Article
-research: true
+type: chapter
 refereed: true
-inprogress: false
+process: published
 selected: true
 date: '2015'
 publisher: University of Chicago
-pubname: Rhetoric and the Digital Humanities
+collection: Rhetoric and the Digital Humanities
 pubURL: 'http://press.uchicago.edu/ucp/books/book/chicago/R/bo18991168.html'
 authors: 'Kevin Brooks, Chris Lindgren, & Matthew Warner'
 tags:
+  - coding literacy
   - computational literacy
+  - mass literacy
   - public outreach
   - literacy crisis discourse
   - Code Year

@@ -10,6 +10,40 @@ module.exports = {
 
   plugins: [
     {
+      // Create pubs from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Publication',
+        path: 'content/publications/*.md',
+        route: '/:slug',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            route: '/tag/:id',
+            create: true
+          }
+        }
+      }
+    },
+    {
+      // Create courses from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Course',
+        path: 'content/courses/*.md',
+        route: '/:slug',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            route: '/tag/:id',
+            create: true
+          }
+        }
+      }
+    },
+    {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {

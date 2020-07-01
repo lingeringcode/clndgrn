@@ -4,45 +4,74 @@
       # {{ $page.tag.title }}
     </h1>
 
-    <div class="posts">
-      <ResearchRefereedCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
+    <div class="publications">
+      <h3>Publications</h3>
+      <ResearchRefereedCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :publication="edge.node"/>
+    </div>
+
+    <div class="courses">
+      <h3>Courses</h3>
+      <TeachingCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :course="edge.node"/>
     </div>
   </Layout>
 </template>
 
 <page-query>
-query Tag ($id: String!) {
-  tag (id: $id) {
-    title
-    belongsTo {
-      edges {
-        node {
-          ...on Post {
-            title
-            path
-            date
-            timeToRead
-            description
-            coverImage (width: 860, blur: 10)
-            content
+  query Tag ($id: String!) {
+    tag (id: $id) {
+      title
+      belongsTo {
+        edges {
+          node {
+            ...on Publication {
+              title
+              date
+              pubURL
+              type
+              authors
+              journal
+              collection
+              path
+              abstract
+              coverImage (width: 220, blur: 10)
+              content
+            }
+            ...on Course {
+              title
+              authors
+              date
+              url
+              type
+              path
+              coverImage (width: 220, blur: 10)
+              content
+            }
+            ...on Post {
+              title
+              path
+              description
+              coverImage (width: 220, blur: 10)
+              content
+            }
           }
         }
       }
     }
   }
-}
 </page-query>
 
 <script>
 import Author from '~/components/Author.vue'
-import ResearchInprogressRefereedCard from '~/components/ResearchInprogressRefereedCard.vue'
+import TeachingCard from '~/components/TeachingCard.vue'
+import ResearchInProgressCard from '~/components/ResearchInProgressCard.vue'
 import ResearchRefereedCard from '~/components/ResearchRefereedCard.vue'
 import ResearchNonRefereedCard from '~/components/ResearchNonRefereedCard.vue'
 
 export default {
   components: {
     Author,
-    ResearchInprogressRefereedCard,
+    TeachingCard,
+    ResearchInProgressCard,
     ResearchRefereedCard,
     ResearchNonRefereedCard
   },

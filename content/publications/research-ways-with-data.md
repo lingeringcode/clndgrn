@@ -1,16 +1,18 @@
 ---
 title: "Coding senses and distributions: A case of the dialectics of coding with data"
-type: Article
-research: true
+type: article
 refereed: true
-inprogress: true
+process: inprogress
 selected: true
 date: Accepted for Jan. 2021
-pubname: Written Communication
+journal: Written Communication
 pubURL: \#
 authors: Chris Lindgren
 tags:
-  - text sense
+  - coding senses
+  - dialectical framework
+  - coding literacy
+  - computational literacy
   - coding as writing
   - data journalism
   - web development

@@ -1,9 +1,9 @@
 ---
 title: Technical and Professional Writing (WRIT 3562w)
-type: Course
+type: undergraduate
 university: University of Minnesota
 date: Fall 2017
-pubURL: /assets/docs/3562w-s17-syllabus.pdf
+url: /assets/docs/3562w-s17-syllabus.pdf
 authors: Chris Lindgren
 tags:
   - technical communication

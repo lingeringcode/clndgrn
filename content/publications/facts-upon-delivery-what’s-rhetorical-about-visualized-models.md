@@ -1,11 +1,15 @@
 ---
 title: "Facts upon delivery: What’s rhetorical about visualized models?"
-type: Article
-research: true
-refereed: true
-inprogress: true
+type: article
+process: "inprogress"
 date: Accepted for Jan. 2021
-pubname: Journal of Business and Technical Communication
+authors: Chris Lindgren
+journal: Journal of Business and Technical Communication
+volume: '35'
+issue: '1'
+pubURL: "#"
+abstract: >-
+  Test abstract.
 tags:
   - data visualization
   - visual arguments
