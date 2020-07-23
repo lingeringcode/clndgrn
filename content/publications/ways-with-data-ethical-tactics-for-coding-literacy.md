@@ -1,10 +1,10 @@
 ---
-title: "Ways with Data: Ethical Tactics for Coding Literacy"
 type: article
-authors: Chris Lindgren
-refereed: true
 process: inprogress
-date: Submitting by Summer 2020
+refereed: true
+authors: Chris Lindgren
+title: "Ways with Data: Ethical Tactics for Coding Literacy"
+date: Submitting by Spring 2021
 journal: Literacy in Composition Studies
 tags:
   - coding literacy
