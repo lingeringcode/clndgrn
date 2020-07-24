@@ -9,6 +9,8 @@ tags:
   - computational rhetoric
   - tf-idf
   - keyword extraction
+  - Python 3
+  - code library
 fields: []
 coverImage: /images/uploads/evekeys.png
 altattribute: Logo of targeted key icon.
