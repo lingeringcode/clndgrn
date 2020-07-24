@@ -5,6 +5,7 @@ type: module
 date: "2020"
 url: https://urlcounter.readthedocs.io/en/latest/
 tags:
+  - computational rhetoric
   - Python 3
   - code library
   - circulation studies
