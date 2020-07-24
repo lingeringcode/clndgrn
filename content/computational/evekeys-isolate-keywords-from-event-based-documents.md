@@ -1,5 +1,5 @@
 ---
-title: "evekeys: Isolate keywords from event-based documents"
+title: "Python 3 Module: evekeys -- Isolate keywords from event-based documents"
 type: module
 selected: true
 date: Summer 2020
