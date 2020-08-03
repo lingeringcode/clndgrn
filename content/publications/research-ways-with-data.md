@@ -4,8 +4,7 @@ process: inprogress
 refereed: true
 selected: true
 authors: Chris Lindgren
-title: "Coding's text senses and distributions: Coding as an intermediary
-  writing with data"
+title: "Coding’s Text Senses and Distributions: A Case of Coding as Writing Data"
 date: Accepted for Jan. 2021
 journal: Written Communication
 pubURL: \#
