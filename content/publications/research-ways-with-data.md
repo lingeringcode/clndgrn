@@ -4,13 +4,15 @@ process: inprogress
 refereed: true
 selected: true
 authors: Chris Lindgren
-title: "Coding’s Text Senses and Distributions: A Case of Coding as Writing Data"
-date: Accepted for Jan. 2021
+title: "Coding’s text senses and distributions: A case of coding as writing with data"
+date: Pre-production for Jan. 2021
 journal: Written Communication
+volume: "38"
+issue: "1"
 pubURL: \#
 tags:
   - coding senses
-  - dialectical framework
+  - intermediary framework
   - coding literacy
   - computational literacy
   - coding as writing
