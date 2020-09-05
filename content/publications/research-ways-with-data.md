@@ -4,7 +4,7 @@ process: inprogress
 refereed: true
 selected: true
 authors: Chris Lindgren
-title: "Coding’s text senses and distributions: A case of coding as writing with data"
+title: "Writing with Data: A Case of Coding on a Data-Journalism Team"
 date: Pre-production for Jan. 2021
 journal: Written Communication
 volume: "38"
