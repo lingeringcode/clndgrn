@@ -1,5 +1,5 @@
 ---
-title: Creating Anti-Racist User Documentation
+title: Creating Anti-Racist User Documentation (ENGL 3814)
 type: undergraduate
 university: Virginia Tech
 selected: true
