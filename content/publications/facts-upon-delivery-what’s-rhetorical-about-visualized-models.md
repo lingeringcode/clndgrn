@@ -1,14 +1,16 @@
 ---
 type: article
-process: inprogress
+process: published
 refereed: true
+selected: true
 authors: Chris Lindgren
 title: "Facts upon delivery: What’s rhetorical about visualized models?"
-date: Pre-production for Jan. 2021
+date: 01/2021
 journal: Journal of Business and Technical Communication
 volume: "35"
 issue: "1"
-pubURL: "#"
+doi: 10.1177/1050651920958499
+pubURL: https://doi.org/10.1177/1050651920958499
 abstract: Test abstract.
 tags:
   - data visualization
