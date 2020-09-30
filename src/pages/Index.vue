@@ -12,8 +12,19 @@
           I'm an Assistant Professor of Technical Communication &amp; Data Visualization in the <a href="https://liberalarts.vt.edu/departments-and-schools/department-of-english/faculty/chris-aaron-lindgren.html" target="_blank" rel="noopener">English Department at Virginia Tech</a>, where I teach courses in technical communication, literacies, and digital-cultural rhetorics of technology.
         </p>
         <p>
-          My past research investigated the uptick and uptake of coding as a form of literacy across educational and professional contexts. My recent research engages questions about understanding how coding is a culturally dynamic form of writing with data. Through this research, I explain how written languages have always been tied to computation and programmatic motives. I am currently preparing publications from a case-study of a web developer, whose coding supported data-journalism work to find and tell stories with large sets of data.
+          My research engages questions that frame computer coding as a culturally dynamic form of writing with data, as opposed to simply a result of automated technology alone. You can learn more about this way of understanding coding through my forthcoming article, 'Writing with data: A study of coding on a data-journalism team," which:
         </p>
+          <ul>
+            <li>
+              Provides an unusual case of a developer on a data-journalism team, processing and analyzing data sets to support journalistic inquiry, rather than widely studied software development;
+            </li>
+            <li>
+              Presents a writing practice framework to guide situated studies that examine how people integrate their historical, social, and technical ideas together through their coding activity; and
+            </li>
+            <li>
+              Offers researchers and practitioners concepts that sensitize us to the relations people develop and coordinate as they write code to write with data.
+            </li>
+          </ul>
         <p>
           I am also interested in applying computational social science methods to feminist and anti-racist rhetorical theories, as a means to differently understand social relationships in digital environments. I am currently collaborating on a project that examines Twitter discourse surrounding Trump's plans to build the border wall before, during, and after his administration's zero-tolerance immigration policy that separated children from their families.
         </p>
