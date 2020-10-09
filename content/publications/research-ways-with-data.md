@@ -5,7 +5,7 @@ refereed: true
 selected: true
 authors: Chris Lindgren
 title: "Writing with Data: A Study of Coding on a Data-Journalism Team"
-date: Pre-production for Jan. 2021
+date: In production for Jan. 2021
 journal: Written Communication
 volume: "38"
 issue: "1"
