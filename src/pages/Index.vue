@@ -14,8 +14,8 @@
         <p>
           My research engages questions that frame computer coding as a culturally dynamic form of writing with data, as opposed to simply a result of automated technology alone. You can learn more about this way of understanding coding through my forthcoming article, 'Writing with data: A study of coding on a data-journalism team," which:
         </p>
-          <ul>
-            <li style="display: list-item;">
+          <ul class="list-image-wraps">
+            <li>
               Provides an unusual case of a developer on a data-journalism team, processing and analyzing data sets to support journalistic inquiry, rather than widely studied software development;
             </li>
             <li>
