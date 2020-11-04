@@ -1,6 +1,6 @@
 # Rhetmap.org Locations
 
-This is a dynamically loading map of points that show the locations of 6 years of Rhetoric, Composition, and Techcomm jobs (2012-13 — 2018-19).
+This is a dynamically loading map of points that show the locations of 6 years of Rhetoric, Composition, and Techcomm jobs (2012-13 — 2019-20).
 
 ## Data format and processing
 
