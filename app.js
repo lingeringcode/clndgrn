@@ -8,7 +8,7 @@ import IconClusterLayer from './icon-cluster-layer';
 const MAPBOX_API_KEY = process.env.MAPBOX_API_KEY; // eslint-disable-line
 
 // Source data CSV
-const DATA_URL = './data/ondeck-rhetmap.json'; // eslint-disable-line
+const DATA_URL = './data/ondeck-rhetmap-1213-1920.json'; // eslint-disable-line
 
 const INITIAL_VIEW_STATE = {
   longitude: -95.712891,
