@@ -5,7 +5,7 @@ refereed: true
 selected: true
 authors: Jim Ridolfo and Chris Lindgren
 title: "Rhetmap.org: Visualizing Collaboration through Six Years of Field Data"
-date: Fall 2020
+date: "2020"
 journal: "Kairos: A Journal of Rhetoric, Technology, and Pedagogy"
 volume: "25"
 issue: "1"
