@@ -66,7 +66,7 @@
 import Author from '~/components/Author.vue'
 import TeachingCard from '~/components/TeachingCard.vue'
 import GrantCard from '~/components/GrantCard.vue'
-import ResearchInProgressCard from '~/components/ResearchInProgressCard.vue'
+// import ResearchInProgressCard from '~/components/ResearchInProgressCard.vue'
 import ResearchRefereedCard from '~/components/ResearchRefereedCard.vue'
 import ResearchNonRefereedCard from '~/components/ResearchNonRefereedCard.vue'
 
@@ -75,7 +75,7 @@ export default {
     Author,
     TeachingCard,
     GrantCard,
-    ResearchInProgressCard,
+    // ResearchInProgressCard,
     ResearchRefereedCard,
     ResearchNonRefereedCard
   },

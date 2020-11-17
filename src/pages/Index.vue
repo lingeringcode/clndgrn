@@ -48,7 +48,7 @@
             </a>
             <transition name="slide-fade">
               <div v-if="showRes" id="research" class="market-content">
-                <div id="inprogress">
+                <!-- <div id="inprogress">
                   <div class="content-test">
                     <div class="course-modal-width">
                       <h5>Under Review / In-Progress</h5>
@@ -59,7 +59,7 @@
                         :publication="edge.node" />
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <div id="refereed">
                   <div class="content-test">
                     <div class="course-modal-width">
@@ -283,7 +283,7 @@
 <script>
   import ResearchRefereedCard from '~/components/ResearchRefereedCard.vue'
   import ResearchNonRefereedCard from '~/components/ResearchNonRefereedCard.vue'
-  import ResearchInProgressCard from '~/components/ResearchInProgressCard.vue'
+  // import ResearchInProgressCard from '~/components/ResearchInProgressCard.vue'
   import TeachingCard from '~/components/TeachingCard.vue'
   import GrantCard from '~/components/GrantCard.vue'
   import ComputationalCard from '~/components/ComputationalCard.vue'
@@ -300,7 +300,7 @@
     components: {
       ResearchRefereedCard,
       ResearchNonRefereedCard,
-      ResearchInProgressCard,
+      // ResearchInProgressCard,
       TeachingCard,
       GrantCard,
       ComputationalCard
