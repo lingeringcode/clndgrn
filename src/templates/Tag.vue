@@ -39,7 +39,6 @@
             ...on Course {
               title
               authors
-              date
               url
               type
               path
