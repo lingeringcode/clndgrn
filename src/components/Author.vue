@@ -3,10 +3,10 @@
 		<img src="/images/uploads/ferrite-core-magnetic-memory-5-patent-fig.svg" />
 		<div class="author__details">
 			<h1 v-if="showTitle" class="author__site-title">
-				{{ $static.metaData.siteName }}
+				{{ $static.metadata.siteName }}
 			</h1>
 			<p class="author__intro">
-				{{ $static.metaData.siteDescription }}
+				{{ $static.metadata.siteDescription }}
 			</p>
 			<ul class="btn-social social-nav social-icon-sizing">
 				<li>
@@ -34,7 +34,7 @@
 
 <static-query>
 	query {
-	  metaData {
+	  metadata {
 	    siteName,
 			siteDescription
 	  }
