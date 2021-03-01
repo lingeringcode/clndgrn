@@ -28,7 +28,7 @@ publication_types: ["6"]
 # Publication name and optional abbreviated publication name.
 publication: "In *Strategic Discourse: The Politics of (New) Literacy Crises*"
 
-abstract: In this chapter, Brooks and Lindgren consider how literacy crisis discourses have reinvented themselves in the twenty-first century. Specifically, they consider what roles literacy experts have to play in responding to the coding crisis discourse. Drawing on field data from their after-school coding literacy program for elementary-aged children, they acknowledge their problems and successes, as they avoided both the crisis and salvation rhetoric that dominates the "learn to code" movement..
+abstract: In this chapter, Brooks and Lindgren consider how literacy crisis discourses have reinvented themselves in the twenty-first century. Specifically, they consider what roles literacy experts have to play in responding to the coding crisis discourse. Drawing on field data from their after-school coding literacy program for elementary-aged children, they acknowledge their problems and successes, as they avoided both the crisis and salvation rhetoric that dominates the "learn to code" movement. [Test](http://bit.ly/3844s18)
 
 # Summary. An optional shortened abstract.
 summary: What roles do literacy experts have to play in responding to the coding crisis discourse? This chapter considers how literacy crisis discourses have been reinvented in the twenty-first century.
