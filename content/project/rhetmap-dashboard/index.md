@@ -1,6 +1,6 @@
 ---
 title: "Rhetmap.org Dashboard"
-summary: Dashboard of annual job market data for Rhetoric, Composition, and Technical Communication.
+summary: Dashboard of annual job market data for Rhetoric, Composition, and Technical Communication. Currently undergoing revisions and updates.
 tags:
 - data visualization
 - job market
@@ -15,9 +15,9 @@ image:
   focal_point: Smart
 
 links:
-- name: Website
-  url: https://lingeringcode.github.io/rhetmap-time-series/
-url_code: "https://github.com/lingeringcode/rhetmap-time-series"
+- name: Dashboard Website
+  url: https://rhetmap-dashboard.herokuapp.com/
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
