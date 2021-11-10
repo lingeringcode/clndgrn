@@ -83,4 +83,4 @@ My research engages questions that frame computer coding as a culturally dynamic
 
 I am also interested in applying computational social science methods to feminist and anti-racist rhetorical theories, as a means to differently understand social relationships in digital environments. I am currently collaborating on a project that examines Twitter discourse surrounding Trump's plans to build the border wall before, during, and after his administration's zero-tolerance immigration policy that separated children from their families.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/clindgrencv.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} {{< staticref "media/clindgrencv.pdf" "newtab" >}}Download my CV{{< /staticref >}}.
