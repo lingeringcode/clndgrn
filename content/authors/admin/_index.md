@@ -81,7 +81,7 @@ My research engages questions that frame computer coding as a culturally dynamic
 - Presents a writing practice framework to guide situated studies that examine how people integrate their historical, social, and technical ideas together as they conduct their coding activity; and
 - Offers researchers and practitioners concepts that sensitize us to the relations people develop and coordinate as they write code that writes data at scale.
 
-I also apply computational social science methods to feminist and anti-racist rhetorical theories, as a means to differently understand social relationships in digital environments. I am currently collaborating on 3 such projects
+I also apply computational social science methods to feminist and anti-racist rhetorical theories, as a means to differently understand social relationships in digital environments. I am currently collaborating on 3 such projects:
 
   1. A case-study of 3 Twitter hashtag groups, each of which responded to Trump's plans to build the border wall before, during, and after his administration's zero-tolerance immigration policy that separated children from their families: #FamiliesBelongTogether, #BuildTheWall, and environmentalists opposed to the borderwall. We are examining user participation across these hashtag groups, and their respective rhetorical framing of the issue, to better understand how digital platforms actually "redraw" material nation-state borders on their platforms, which impacts digital activism.
   2. A citation politics study in my discipline of Writing &amp; Rhetoric, which aims at monitoring and addressing any issues with the frequency and manner by which scholars who are multiply marginalized are cited and taken up over time and in particular journals.
