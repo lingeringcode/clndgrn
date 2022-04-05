@@ -38,7 +38,7 @@ summary: By analyzing Google search engine results, we identified search optimiz
 tags: [paper mills, rhetops, digital rhetoric, contract cheating]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 links:
