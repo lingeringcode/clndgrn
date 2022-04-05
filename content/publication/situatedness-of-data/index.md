@@ -1,20 +1,18 @@
 ---
-title: "Responding to the Coding Crisis: From Code Year to Computational Literacy"
+title: "Reckoning with the situatedness of data: Applying stasis to study data-driven settings"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Kevin Brooks
 - admin
 
 # Author notes (optional)
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
+# author_notes:
+# - "Equal contribution"
 
-date: "2015-10-01T00:00:00Z"
-isbn: "978-0-87421-994-4"
+date: "2022-01-01T00:00:00Z"
+# isbn: "978-0-87421-994-4"
 
 # Schedule page publish date (NOT publication's date).
 #publishDate: "2021-01-01T00:00:00Z"
@@ -23,38 +21,38 @@ isbn: "978-0-87421-994-4"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["6"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "In *Strategic Discourse: The Politics of (New) Literacy Crises*"
+publication: "Under review at *Technical Communication Quarterly*"
 
-abstract: In this chapter, Brooks and Lindgren consider how literacy crisis discourses have reinvented themselves in the twenty-first century. Specifically, they consider what roles literacy experts have to play in responding to the coding crisis discourse. Drawing on field data from their after-school coding literacy program for elementary-aged children, they acknowledge their problems and successes, as they avoided both the crisis and salvation rhetoric that dominates the "learn to code" movement..
+abstract: This article applies stasis to analyze the impact of situated decisions on quantitative work. I analyze a sample of situations as a data-journalism team discuss the meaning and use of data, when directly mediated by the data itself. Findings show how questions of quality were central to team discussions of potential story ideas and understanding the data and its potential uses within the scope of the potential story.
 
 # Summary. An optional shortened abstract.
-summary: What roles do literacy experts have to play in responding to the coding crisis discourse? This chapter considers how literacy crisis discourses have been reinvented in the twenty-first century.
+# summary: 
 
-tags: [computational literacy, code year, coding literacy]
+tags: [stasis theory, rhetoric of data, critical data studies, data journalism]
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
-links:
-- name: Chapter
-  url: https://ccdigitalpress.org/book/strategic
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+# links:
+# - name: Chapter
+#   url: https://ccdigitalpress.org/book/strategic
+# url_pdf: ''
+# url_code: ''
+# url_dataset: ''
+# url_poster: ''
+# url_project: ''
+# url_slides: ''
+# url_source: ''
+# url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Lindgren helps a child with a coding project during an open press fair about the after-school program.'
+  caption: Diagram of each project\'s available data-driven activity, indicating what index and variable combinations were pursued. The solid grey lines with grey dots indicate project trajectories that were not published, while the dashed lines with larger red dots indicate published aspects of the data. The red highlighted regions indicate data involved in the examined situation.
   focal_point: ""
   preview_only: false
 

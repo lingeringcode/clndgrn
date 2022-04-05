@@ -38,7 +38,7 @@ summary: This chapter reflects on the experience of a humanities-led computation
 tags: [computational literacy, code year, coding literacy]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 links:
